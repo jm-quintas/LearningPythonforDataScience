@@ -6,3 +6,9 @@ Todos los programas que se escriben en lenguaje Python se deben guardar en un ar
 ```python{
 nombre_archivo.py
 ```
+
+Para ejecutar el programa debemos utilizar la siguiente sintaxis en la terminal o consola de comando:
+
+```{python}
+python nombre_archivo.py
+```
