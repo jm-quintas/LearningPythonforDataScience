@@ -47,3 +47,19 @@ El **prompt** es una cadena de texto que se muestra al usuario para solicitar la
 input("Cual es tu nombre: ")
 ```
 Sol: Cual es tu nombre: 
+
+Más adelante estudiaremos otras funciones incorporadas en el lenguaje de Python.  
+
+## Variables.
+En Python, las *variables son nombres que se utilizan para almacenar valores en la memoria del ordenador*. Permiten guardar información para utilizarla posteriormente en el código.  
+
+Características principales de las variables en Python:
+
+* **No es necesario declararlas**: A diferencia de otros lenguajes, *en Python no se necesita declarar el tipo de dato de una variable* antes de usarla. El tipo se asigna automáticamente cuando se le asigna un valor por primera vez.
+  
+* **Tipado dinámico**: Python *es un lenguaje de tipado dinámico*, lo que significa que el tipo de dato de una variable puede cambiar a lo largo del programa.
+  
+* **Nombres significativos**: Es recomendable *utilizar nombres descriptivos para las variables*, que indiquen claramente qué tipo de información almacenan.
+  
+* **Sensibilidad a mayúsculas y minúsculas**: Python distingue entre mayúsculas y minúsculas en los nombres de las variables. Por ejemplo, nombre y NOMBRE son variables diferentes.
+
