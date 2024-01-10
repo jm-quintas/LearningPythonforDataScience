@@ -16,9 +16,12 @@ python nombre_archivo.py
 ## Funciones incorporadas en Python.
 Python incluye una gran cantidad de funciones incorporadas que se pueden utilizar sin necesidad de definirlas.  
 
-### Función print().
+### **Función print()**.
 Imprime un mensaje en la terminal o consola de comandos.
 
 ```{python}
 print("Hola, mundo")
 ```
+Sol: Hola, mundo  
+
+
