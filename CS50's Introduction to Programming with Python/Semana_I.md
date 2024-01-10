@@ -12,3 +12,13 @@ Para ejecutar el programa debemos utilizar la siguiente sintaxis en la terminal 
 ```{python}
 python nombre_archivo.py
 ```
+
+## Funciones incorporadas en Python.
+Python incluye una gran cantidad de funciones incorporadas que se pueden utilizar sin necesidad de definirlas.  
+
+### Función print().
+Imprime un mensaje en la terminal o consola de comandos.
+
+```{python}
+print("Hola, mundo")
+```
