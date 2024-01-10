@@ -14,7 +14,17 @@ python nombre_archivo.py
 ```
 
 ## Funciones incorporadas en Python.
-Python incluye una gran cantidad de funciones incorporadas que se pueden utilizar sin necesidad de definirlas.  
+Python incluye una gran cantidad de funciones incorporadas que se pueden utilizar sin necesidad de definirlas. Su sintaxis es la siguiente:  
+
+```{python}
+nombre_funcion_python(argumento)
+```
+
+Los *argumentos* son una entrada a una función que de alguna manera influye en su comportamiento. En la mayoria de las ocaciones los argumentos deben ir encerrados entre comillas.
+
+```{python}
+nombre_funcion_python("argumento")
+```
 
 ### **Función print()**.
 Imprime un mensaje en la terminal o consola de comandos.
