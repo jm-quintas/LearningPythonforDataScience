@@ -1,4 +1,4 @@
-# Introducción del programa.  
+# Introducción del programa.
 
 Este curso está específicamente enfocado a la programación en el propio Python. El inicio del curso, se enfoca sobre un tema de programación conocido como **funciones y variables**, mecanismos a través del cual puedes escribir código que resuelve problemas más pequeños, pero puedes componer esas soluciones más pequeñas en soluciones a problemas aún mayores.  
 
