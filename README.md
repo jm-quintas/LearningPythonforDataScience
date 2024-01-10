@@ -1,6 +1,6 @@
 # **Harvard University | HarvardX**  
-Professional Certificate Program: **Learning Python for Data Science**. 
-PhD. David J. Malan  
+Professional Certificate Program: **Learning Python for Data Science**.  
+**PhD. David J. Malan**  
 
 | Unidad | Programa | Repositorio |
 | :------: | :------ | :------: |
