@@ -117,6 +117,8 @@ print("Hola,", name)        #Opción 2
 Sol: Cual es tu nombre: NicLau  
        Hola, NicLau 
 
+También, podemos documentarnos sobre los parametros y argumentos que se pueden aplicar a las variables, para esto podemos consultar la página oficial [docs.Python.org](https://docs.python.org/3/)
+
 ## Concatenación en Python.
 Es el proceso de *unir dos o más cadenas de texto*. Se puede realizar utilizando el operador de concatenación **+**.  
 
