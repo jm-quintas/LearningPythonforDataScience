@@ -111,10 +111,48 @@ edad = 39
 nombre = input("Cual es tu nombre: ")
 
 # Imprimir en la consola un saludo con el nombre del usuario.
-print("Hola, " + name)
+print("Hola, " + name)      #Opción 1, el sigo + significa que es una concatenación (unir dos o más cadenas de texto).
+print("Hola,", name)        #Opción 2
 ```
 Sol: Cual es tu nombre: NicLau  
        Hola, NicLau 
+
+## Concatenación en Python.
+Es el proceso de *unir dos o más cadenas de texto*. Se puede realizar utilizando el operador de concatenación **+**.  
+
+Sintaxis de la concatenación en Python:  
+
+```{python}
+cadena1 = "texto1, "
+cadena2 = "texto2"
+
+print(cadena1 + cadena2)
+```
+Sol: texto1, texto2  
+
+Otras formas de concatenar cadenas en Python:  
+* **Método format()**: se puede utilizar para concatenar cadenas de texto y valores.
+
+```{python}
+nombre = "NicLau"
+edad = 15
+
+print("Hola, mi nombre es {} y tengo {} años.".format(nombre, edad))
+```
+Sol: Hola, mi nombre es *NicLau* y tengo *15* años.  
+
+* **Operador f-string**: se puede utilizar para concatenar cadenas de texto y valores de forma más concisa.
+
+```{python}
+nombre = "NicLau"
+edad = 15
+
+print(f"Hola, mi nombre es {nombre} y tengo {edad} años.")
+```
+Sol: Hola, mi nombre es *NicLau* y tengo *15* años.  
+
+
+
 
 
 
