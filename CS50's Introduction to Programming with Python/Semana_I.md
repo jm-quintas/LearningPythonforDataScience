@@ -170,7 +170,7 @@ nombre = input("Cual es tu nombre: ")
 print("Hola, ")
 print(nombre)
 ```
-Sol: Cual es tu nombre: *NicLau*
+Sol: Cual es tu nombre: *NicLau*  
     Hola,  
     *NicLau*  
 
@@ -184,6 +184,6 @@ nombre = input("Cual es tu nombre: ")
 print("Hola, ", end = "")
 print(nombre)
 ```
-Sol: Cual es tu nombre: NicLau  
-      Hola, NicLau  
+Sol: Cual es tu nombre: *NicLau*  
+      Hola, *NicLau*  
 
