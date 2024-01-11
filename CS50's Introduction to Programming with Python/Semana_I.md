@@ -110,7 +110,7 @@ edad = 39
 # Preguntar al usuario su nombre.
 nombre = input("Cual es tu nombre: ")
 
-# Imprimira en la consola un saludo con el nombre del usuario.
+# Imprimir en la consola un saludo con el nombre del usuario.
 print("Hola," + name)
 ```
 Sol: Cual es tu nombre: NicLau  
