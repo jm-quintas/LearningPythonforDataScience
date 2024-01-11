@@ -74,8 +74,8 @@ edad = 39
 nombre = input("Cual es tu nombre: ")
 print("Hola," + name)
 ```
-Sol: Cual es tu nombre: nombre_usuario  
-     Hola, nombre_usuario  
+Sol: Cual es tu nombre: NicLau  
+       Hola, NicLau 
 
 
 
