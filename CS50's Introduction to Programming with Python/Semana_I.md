@@ -145,7 +145,7 @@ nombre = nombre.strip().capitalize()
 # Imprimir en la consola un saludo con el nombre del usuario.
 print("Hola, " + name)
 ```
-Sol: Cual es tu nombre:                    *niclau*      
+Sol: Cual es tu nombre:_______________________*niclau*_______________     
 Hola, *Niclau*  
 
 ## Concatenación en Python.
