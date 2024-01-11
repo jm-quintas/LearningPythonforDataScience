@@ -13,6 +13,42 @@ Para ejecutar el programa debemos utilizar la siguiente sintaxis en la terminal 
 python nombre_archivo.py
 ```
 
+## Comentarios en Python.
+Los comentarios en Python *son fragmentos de texto que no se ejecutan como código*. Se utilizan para explicar el código, documentar el funcionamiento del programa o simplemente para hacer anotaciones.  
+
+Hay dos tipos de comentarios en Python:  
+
+* **Comentarios de línea única**: Se inician con el símbolo numeral (#) y se extienden hasta el final de la línea.  
+
+* **Comentarios de bloque**: Se inician con tres comillas dobles (""") y se cierran con tres comillas dobles ("""). Pueden ocupar varias líneas.
+
+Ejemplos de comentarios en Python:  
+
+```{python}
+# Este es un comentario de línea única.
+
+"""
+Este es un comentario de bloque
+que ocupa varias líneas.
+"""
+```
+
+Los comentarios en Python ofrecen una serie de ventajas, entre las que se incluyen:  
+
+* **Mejor legibilidad del código**: los comentarios ayudan a que el código sea más fácil de leer y comprender.  
+
+* **Documentación del código**: los comentarios pueden utilizarse para documentar el funcionamiento del programa, lo que facilita su mantenimiento y actualización.
+  
+* **Explicación del código**: los comentarios pueden utilizarse para explicar el código, lo que puede ser útil para otros programadores o para el propio programador en el futuro.
+
+Consejos para escribir comentarios en Python:  
+
+* **Utilice comentarios descriptivos**: los comentarios deben ser claros y concisos, y deben explicar claramente el propósito del código.
+  
+* **Evite los comentarios redundantes**: si el código es claro y bien escrito, no es necesario añadir comentarios redundantes.  
+
+* **Actualice los comentarios**: si el código se modifica, asegúrese de actualizar los comentarios para que sigan siendo precisos.  
+
 ## Funciones incorporadas en Python.
 Python incluye una gran cantidad de funciones incorporadas que se pueden utilizar sin necesidad de definirlas. Su sintaxis es la siguiente:  
 
