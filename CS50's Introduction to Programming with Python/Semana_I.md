@@ -111,7 +111,7 @@ edad = 39
 nombre = input("Cual es tu nombre: ")
 
 # Imprimir en la consola un saludo con el nombre del usuario.
-print("Hola," + name)
+print("Hola, " + name)
 ```
 Sol: Cual es tu nombre: NicLau  
        Hola, NicLau 
