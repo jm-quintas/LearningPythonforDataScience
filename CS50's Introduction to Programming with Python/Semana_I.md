@@ -61,5 +61,22 @@ Características principales de las variables en Python:
   
 * **Nombres significativos**: Es recomendable *utilizar nombres descriptivos para las variables*, que indiquen claramente qué tipo de información almacenan.
   
-* **Sensibilidad a mayúsculas y minúsculas**: Python distingue entre mayúsculas y minúsculas en los nombres de las variables. Por ejemplo, nombre y NOMBRE son variables diferentes.
+* **Sensibilidad a mayúsculas y minúsculas**: Python distingue entre mayúsculas y minúsculas en los nombres de las variables. Por ejemplo, nombre y NOMBRE son variables diferentes.  
+
+Para crear una variable en Python, simplemente se le asigna un valor utilizando el operador de **asignación =**. Por ejemplo:  
+
+```{python}
+nombre = "Jairo"
+edad = 39
+```
+
+```{python}
+nombre = input("Cual es tu nombre: ")
+print("Hola," + name)
+```
+Sol: Cual es tu nombre: nombre_usuario  
+     Hola, nombre_usuario  
+
+
+
 
