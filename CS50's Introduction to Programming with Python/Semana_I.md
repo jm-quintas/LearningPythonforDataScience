@@ -132,6 +132,22 @@ print("Hola, " + name)
 Sol: Cual es tu nombre: *nicLau*  
     Hola, *NicLau*  
 
+También, podemos combinar parámetros:  
+
+```{python}
+# Preguntar al usuario su nombre.
+nombre = input("Cual es tu nombre: ")
+
+# .strip(), elimina cualquier espacio provocado por el usuario al editar la entrada de texto
+# .capitalize(), colocará la primera letra del string introducida por el usuario en mayúscula, independientemente como lo edite.
+nombre = nombre.strip().capitalize()
+
+# Imprimir en la consola un saludo con el nombre del usuario.
+print("Hola, " + name)
+```
+Sol:          *niclau*      
+Hola, *Niclau*  
+
 ## Concatenación en Python.
 Es el proceso de *unir dos o más cadenas de texto*. Se puede realizar utilizando el operador de concatenación **+**.  
 
