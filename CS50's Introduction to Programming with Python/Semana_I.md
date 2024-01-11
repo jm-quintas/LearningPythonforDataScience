@@ -151,9 +151,39 @@ print(f"Hola, mi nombre es {nombre} y tengo {edad} años.")
 ```
 Sol: Hola, mi nombre es *NicLau* y tengo *15* años.  
 
+## Parametros dentro de la función print().
+La función *print() en Python se utiliza para imprimir información* en la pantalla. La función print() tiene los siguientes parámetros:  
 
+* **objeto**: el objeto que se desea imprimir. Puede ser una cadena de texto, un número, una lista, una tupla, un diccionario, etc.  
+ 
+* **sep**: el separador que se utilizará entre los objetos. El valor predeterminado es un espacio.  
+  
+* **end**: el carácter que se *imprimirá al final*. El valor predeterminado es una nueva línea.  
 
+* **file**: el objeto de archivo en el que se imprimirá la información. El valor predeterminado es la salida estándar.  
 
+```{python}
+# Preguntar al usuario su nombre.
+nombre = input("Cual es tu nombre: ")
 
+# Imprimir en la consola un saludo con el nombre del usuario.
+print("Hola, ")
+print(nombre)
+```
+Sol: Cual es tu nombre: *NicLau*
+    Hola,  
+    *NicLau*  
 
+Para evitar el salto de línea podemos utilizar uno de los parámetros de la función print().
+
+```{python}
+# Preguntar al usuario su nombre.
+nombre = input("Cual es tu nombre: ")
+
+# Imprimir en la consola un saludo con el nombre del usuario.
+print("Hola, ", end = "")
+print(nombre)
+```
+Sol: Cual es tu nombre: NicLau  
+      Hola, NicLau  
 
