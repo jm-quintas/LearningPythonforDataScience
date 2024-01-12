@@ -114,8 +114,8 @@ nombre = input("Cual es tu nombre: ")
 print("Hola, " + name)      #Opción 1, el sigo + significa que es una concatenación (unir dos o más cadenas de texto).
 print("Hola,", name)        #Opción 2
 ```
-Sol: Cual es tu nombre: NicLau  
-       Hola, NicLau 
+Sol: Cual es tu nombre: *NicLau*  
+       Hola, *NicLau* 
 
 También, podemos documentarnos sobre los parametros y argumentos que se pueden aplicar a las variables, para esto podemos consultar la página oficial [docs.Python.org](https://docs.python.org/3/)
 
