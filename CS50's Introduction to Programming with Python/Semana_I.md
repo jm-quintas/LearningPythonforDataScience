@@ -24,7 +24,7 @@ Hay dos tipos de comentarios en Python:
 
 Ejemplos de comentarios en Python:  
 
-```python:
+```python
 # Este es un comentario de línea única.
 
 """
@@ -65,7 +65,7 @@ nombre_funcion_python("argumento")
 ### **Función print()**.
 Imprime un mensaje en la terminal o consola de comandos.
 
-```python:
+```python
 print("Hola, mundo")
 ```
 Sol: Hola, mundo  
