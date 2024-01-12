@@ -278,4 +278,59 @@ En Python, las operaciones aritméticas **se realizan de izquierda a derecha**, 
 | +, - | 3 |
 
 
+```{python}
+# Definimos dos variables.
+x = 1
+y = 2
+
+# Operación suma asignada a una variable.
+z = x + y
+
+# Salida
+print(z)
+```
+Sol: 3  
+
+```{python}
+# Valores introducidos por el usuario, y cada uno asignados a una variable:
+x = input("Introduce un valor para 'x': ")
+y = input("Introduce un valor para 'y': ")
+
+# Operación suma asignada a una variable, convertimos a dato tipo enteros cada valor introducido por el usuario:
+z = int(x) + int(y)
+
+# Salida:
+print(z)
+```
+Sol:  
+Introduce un valor para 'x': 1 (introducido por el usuario)  
+Introduce un valor para 'y': 2 (introducido por el usuario)  
+3    
+
+## Conversión de datos.
+En programación, la conversión de tipos de datos es el proceso de cambiar un valor de un tipo de datos a otro. Esto puede ser necesario para realizar operaciones o funciones que requieren un tipo de datos específico.  
+
+En Python, la conversión de tipos de datos se puede realizar de forma explícita o implícita.
+
+### Conversión explícita.
+
+La conversión explícita de tipos de datos se realiza utilizando funciones o métodos especiales. Las funciones y métodos más comunes para la conversión de tipos de datos en Python son:  
+
+* **int()**: convierte un valor a un entero.
+* **float()**: convierte un valor a un número de punto flotante.
+* **str()**: convierte un valor a una cadena de texto.
+* **bool()**: convierte un valor a un valor booleano.
+
+```{python}
+# Valores introducidos por el usuario, convertimos de un tipo de dato string a integer, y asignamos cada valor a una variable:
+x = int(input("Introduce un valor para 'x': "))
+y = int(input("Introduce un valor para 'y': "))
+
+# Imprimimos la operación aritmética:
+print(x + y)
+```
+Sol:  
+Introduce un valor para 'x': 1 (introducido por el usuario)  
+Introduce un valor para 'y': 2 (introducido por el usuario)  
+3  
 
