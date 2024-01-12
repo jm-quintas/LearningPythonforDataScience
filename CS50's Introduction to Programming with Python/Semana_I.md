@@ -262,4 +262,20 @@ Los tipos de datos en Python pueden ser operados entre sí mediante diferentes t
 | Operador | Descripción |
 | :------: | :------: |
 | + | Suma |
+| - | Resta |
+| * | Multiplicación |
+| / | División |
+| ** | Potenciación |
+| // | División entera |
+| % | Módulo |
+
+En Python, las operaciones aritméticas **se realizan de izquierda a derecha**, pero hay algunos operadores que tienen una prioridad mayor que otros. La siguiente tabla muestra la prioridad de los operadores aritméticos en Python:  
+
+| Operador | Prioridad |
+| :------: | :-------: |
+| ** | 1 |
+| *, /, //, % | 2 |
+| +, - | 3 |
+
+
 
