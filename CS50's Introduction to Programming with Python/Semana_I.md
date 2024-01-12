@@ -297,7 +297,7 @@ print(m)
 print(d)
 print(p)   
 ```
-Sol: 
+Sol:  
 3  
 1  
 2  
