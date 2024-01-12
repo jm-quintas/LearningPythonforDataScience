@@ -402,3 +402,23 @@ z = round(x + y)
 print(f"{z:,}")
 ```
 Sol: 1,000  
+
+```{python}
+x = float(input("Introduce un valor para 'x': "))
+y = float(input("Introduce un valor para 'y': "))
+
+z = x / y
+
+print(z)
+```
+Sol: 0.6666666666666666  
+
+```{python}
+x = float(input("Introduce un valor para 'x': "))
+y = float(input("Introduce un valor para 'y': "))
+
+z = round(x / y, 2)      # Redondear a 2 decimales.
+
+print(z)
+```
+Sol: 0.67  
