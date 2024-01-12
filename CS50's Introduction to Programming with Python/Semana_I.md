@@ -495,3 +495,17 @@ resultado = sumar(1,2)
 print(resultado)
 ```
 Sol: 3  
+
+```{python}
+def main():
+   x = int(input("Cual es el valor de x: "))
+   print("El cuadrado de x es", cuadrado(x))
+
+def cuadrado(n):
+   return n ** 2
+
+main()
+```
+Sol:  
+Cual es el valor de x: *3*  
+9  
