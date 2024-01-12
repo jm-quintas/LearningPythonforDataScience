@@ -444,6 +444,7 @@ Los **parámetros** de una función *son valores que se pueden pasar a la funci�
 El valor de **retorno (return)** de una función es el *valor que se devuelve cuando la función se completa*. El valor de retorno puede ser de cualquier tipo, incluidos números, cadenas, listas, etc.
 
 ```{python}
+# Definimos una función que genera un saludo.
 # Definimos una función, con x como parámetro:
 def hello(x):
     print("Hola", x)
