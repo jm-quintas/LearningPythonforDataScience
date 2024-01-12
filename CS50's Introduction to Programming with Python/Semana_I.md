@@ -318,6 +318,7 @@ La conversión explícita de tipos de datos se realiza utilizando funciones o m�
 * **str()**: convierte un valor a una cadena de texto.
 * **bool()**: convierte un valor a un valor booleano.
 
+### Convertir dato tipo str a int.
 ```{python}
 # Valores introducidos por el usuario, convertimos de un tipo de dato string a integer, y asignamos cada valor a una variable:
 x = int(input("Introduce un valor para 'x': "))
@@ -346,3 +347,48 @@ Sol:
 Introduce un valor para 'x': 1 (introducido por el usuario)  
 Introduce un valor para 'y': 2 (introducido por el usuario)  
 3    
+
+### Convertir dato tipo str a float.
+```{python}
+# Valores introducidos por el usuario, convertimos de un tipo de dato string a float, y asignamos cada valor a una variable:
+x = float(input("Introduce un valor para 'x': "))
+y = float(input("Introduce un valor para 'y': "))
+
+# Imprimimos la operación aritmética:
+print(x + y)
+```
+Sol:  
+Introduce un valor para 'x': 1.2 (introducido por el usuario)  
+Introduce un valor para 'y': 3.4 (introducido por el usuario)  
+4.6  
+
+
+En Python, la función **round()** se utiliza para *redondear un número a un número entero o a un número decimal* con una precisión determinada. La sintaxis de la función es la siguiente:
+
+```{python}
+round(número, ndigitos)
+```
+
+*número* es el número que se desea redondear, *ndigitos* es el número de decimales a los que se desea redondear el número. Por defecto, ndigitos es 0, lo que significa que el número se redondea al número entero más cercano.  
+
+En Python, también existe la función **math.floor()**, que redondea un número **hacia abajo**, y la función **math.ceil()**, que redondea un número **hacia arriba**. La sintaxis de estas funciones es la siguiente:  
+
+```{python}
+math.floor(número)
+```
+
+```{python}
+math.ceil(número)
+```
+
+```{python}
+x = float(input("Introduce un valor para 'x': "))
+y = float(input("Introduce un valor para 'y': "))
+
+print(round(x + y))
+```
+Sol:  
+Introduce un valor para 'x': 2  
+Introduce un valor para 'y': 4.6  
+7  
+
