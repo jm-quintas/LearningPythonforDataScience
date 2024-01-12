@@ -422,3 +422,14 @@ z = round(x / y, 2)      # Redondear a 2 decimales.
 print(z)
 ```
 Sol: 0.67  
+
+Otra manera de hacerlo es la siguiente:
+```{python}
+x = float(input("Introduce un valor para 'x': "))
+y = float(input("Introduce un valor para 'y': "))
+
+z = x / y
+
+print(f"{z:.2f}")
+```
+Sol: 0.67  
