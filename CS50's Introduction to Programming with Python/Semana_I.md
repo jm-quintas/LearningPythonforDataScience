@@ -280,32 +280,29 @@ En Python, las operaciones aritméticas **se realizan de izquierda a derecha**, 
 
 ```{python}
 # Definimos dos variables.
-x = 1
-y = 2
+x = 2
+y = 1
 
 # Operación suma asignada a una variable.
-z = x + y
+z = x + y  
+r = x - y  
+m = x * y  
+d = x / y
+p = x ** y 
 
 # Salida
-print(z)
+print(z)  
+print(r)  
+print(m)  
+print(d)
+print(p)   
 ```
-Sol: 3  
-
-```{python}
-# Valores introducidos por el usuario, y cada uno asignados a una variable:
-x = input("Introduce un valor para 'x': ")
-y = input("Introduce un valor para 'y': ")
-
-# Operación suma asignada a una variable, convertimos a dato tipo enteros cada valor introducido por el usuario:
-z = int(x) + int(y)
-
-# Salida:
-print(z)
-```
-Sol:  
-Introduce un valor para 'x': 1 (introducido por el usuario)  
-Introduce un valor para 'y': 2 (introducido por el usuario)  
-3    
+Sol: 
+3  
+1  
+2  
+2  
+2  
 
 ## Conversión de datos.
 En programación, la conversión de tipos de datos es el proceso de cambiar un valor de un tipo de datos a otro. Esto puede ser necesario para realizar operaciones o funciones que requieren un tipo de datos específico.  
@@ -334,3 +331,18 @@ Introduce un valor para 'x': 1 (introducido por el usuario)
 Introduce un valor para 'y': 2 (introducido por el usuario)  
 3  
 
+```{python}
+# Valores introducidos por el usuario, y cada uno asignados a una variable:
+x = input("Introduce un valor para 'x': ")
+y = input("Introduce un valor para 'y': ")
+
+# Operación suma asignada a una variable, convertimos a dato tipo enteros cada valor introducido por el usuario:
+z = int(x) + int(y)
+
+# Salida:
+print(z)
+```
+Sol:  
+Introduce un valor para 'x': 1 (introducido por el usuario)  
+Introduce un valor para 'y': 2 (introducido por el usuario)  
+3    
