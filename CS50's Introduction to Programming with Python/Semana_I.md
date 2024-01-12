@@ -385,6 +385,7 @@ math.ceil(número)
 x = float(input("Introduce un valor para 'x': "))
 y = float(input("Introduce un valor para 'y': "))
 
+# Función de redondeo.
 print(round(x + y))
 ```
 Sol:  
@@ -392,3 +393,12 @@ Introduce un valor para 'x': 2
 Introduce un valor para 'y': 4.6  
 7  
 
+```{python}
+x = float(input("Introduce un valor para 'x': "))
+y = float(input("Introduce un valor para 'y': "))
+
+z = round(x + y)
+
+print(f"{z:,}")
+```
+Sol: 1,000  
