@@ -218,3 +218,48 @@ print(nombre)
 Sol: Cual es tu nombre: *NicLau*  
       Hola, *NicLau*  
 
+## Tipos de datos en Python.
+En Python, un tipo de dato se refiere a la **clasificación de los valores que pueden ser almacenados en una variable*. Cada tipo de dato tiene características y propiedades específicas que lo hacen adecuado para ciertos usos y operaciones.  
+
+Los tipos de datos en Python se pueden dividir en dos categorías principales:
+
+* **Tipos básicos**: son los tipos de datos más simples y fundamentales.  
+* **Tipos compuestos**: son tipos de datos que se basan en otros tipos de datos básicos.
+
+### **Tipos básicos**.  
+
+* **Textos (String)**: representan cadenas de caracteres.
+
+* **Númericos**: representan números. Los tipos numéricos en Python son:  
+  * **Enteros (int)**: representan números enteros, positivos o negativos.
+  * **Punto flotante (float)**: representan números con decimales.
+  * **Complejos (complex)**: representan números complejos, que son la suma de un número real y un número imaginario.
+
+* **Booleanos**: representan valores lógicos, verdaderos (True) o falsos (False).
+
+### **Tipos compuestos**.
+  
+* **Secuencias**: representan colecciones de datos ordenados. Los tipos de secuencias en Python son:
+  * **Listas (list)**: representan colecciones mutables de datos.
+  * **Tuplas (tuple)**: representan colecciones inmutables de datos.
+  * **Rangos (range)**: representan secuencias de números.
+* **Mapas (map)**: representan asociaciones entre claves y valores.
+  * **Diccionarios (dictionaries)**: se utilizan para almacenar valores de datos en pares claves:valor.  
+* **Conjuntos**: representan colecciones de datos sin elementos duplicados.
+
+### **Operaciones con tipos de datos**.
+
+Los tipos de datos en Python pueden ser operados entre sí mediante diferentes tipos de operaciones. Las operaciones más comunes son:  
+
+* **Operaciones aritméticas**: se utilizan para realizar operaciones aritméticas básicas, como suma, resta, multiplicación, división y potenciación.  
+
+* **Operaciones lógicas**: se utilizan para realizar operaciones lógicas básicas, como AND, OR y NOT.  
+
+* **Operaciones de comparación**: se utilizan para comparar valores de diferentes tipos de datos.
+
+## Operadores Aritméticos.
+
+| Operador | Descripción |
+| :------: | :------: |
+| + | Suma |
+
