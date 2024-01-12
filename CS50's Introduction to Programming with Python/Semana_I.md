@@ -437,7 +437,7 @@ Sol: 0.67
 ## Definir una función en Python.
 En Python, una *función es un bloque de código que se puede reutilizar simplemente llamando a la función*. Esto permite la reutilización de código simple y elegante sin volver a escribir explícitamente secciones de código.  
 
-Para definir una función en Python, se utiliza la **palabra clave def**. A continuación viene el **nombre o identificador de la función** que es el que se utiliza para invocarla. Después del nombre hay que incluir los **paréntesis** y una lista opcional de parámetros.  
+Para definir una función en Python, se utiliza la palabra clave **def**. A continuación viene el **nombre o identificador de la función** que es el que se utiliza para invocarla. Después del nombre hay que incluir los **paréntesis** y una lista opcional de parámetros.  
 
 Los **parámetros** de una función *son valores que se pueden pasar a la función cuando se llama*. Los parámetros pueden ser de cualquier tipo, incluidos números, cadenas, listas, etc.
 
