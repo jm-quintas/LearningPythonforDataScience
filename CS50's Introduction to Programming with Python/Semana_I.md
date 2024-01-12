@@ -433,3 +433,44 @@ z = x / y
 print(f"{z:.2f}")
 ```
 Sol: 0.67  
+
+## Definir una función en Python.
+En Python, una *función es un bloque de código que se puede reutilizar simplemente llamando a la función*. Esto permite la reutilización de código simple y elegante sin volver a escribir explícitamente secciones de código.  
+
+Para definir una función en Python, se utiliza la **palabra clave def**. A continuación viene el **nombre o identificador de la función** que es el que se utiliza para invocarla. Después del nombre hay que incluir los **paréntesis** y una lista opcional de parámetros.  
+
+Los **parámetros** de una función *son valores que se pueden pasar a la función cuando se llama*. Los parámetros pueden ser de cualquier tipo, incluidos números, cadenas, listas, etc.
+
+El valor de **retorno (return)** de una función es el *valor que se devuelve cuando la función se completa*. El valor de retorno puede ser de cualquier tipo, incluidos números, cadenas, listas, etc.
+
+```{python}
+# Definimos una función, con x como parámetro:
+def hello(x):
+    print("Hola", x)
+
+# Definimos una variable que tendra como valor la información obtenida desde el usuario. 
+name = input("Cual es tu nombre?: ")
+# La función hello toma como parámetro la variable name, la cual, sera el valor del parámetro x. 
+hello(name)
+```
+
+```{python}
+# Definimos una función que realiza la operación de sumar dos números.
+def sumar(a, b):
+  """
+  Suma dos números.
+
+  Argumentos:
+    a: El primer número.
+    b: El segundo número.
+
+  Retorna:
+    La suma de los dos números.
+  """
+  return a + b
+
+# Definir una variable que contenga el resultado de la funcion suma:
+resultado = sumar(1,2)
+print(resultado)
+```
+Sol: 3  
