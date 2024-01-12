@@ -123,7 +123,7 @@ También, podemos documentarnos sobre los parametros y argumentos que se pueden 
 # Preguntar al usuario su nombre.
 nombre = input("Cual es tu nombre: ")
 
-# .capitalize(), colocará la primera letra del string introducida por el usuario en mayúscula, independientemente como lo edite.
+# .capitalize(), colocará la primera letra del string introducido por el usuario en mayúscula, independientemente como lo edite.
 nombre = nombre.capitalize()
 
 # Imprimir en la consola un saludo con el nombre del usuario.
