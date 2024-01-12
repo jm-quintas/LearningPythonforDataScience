@@ -91,11 +91,11 @@ En Python, las *variables son nombres que se utilizan para almacenar valores en 
 
 Características principales de las variables en Python:
 
-* **No es necesario declararlas**: A diferencia de otros lenguajes, *en Python no se necesita declarar el tipo de dato de una variable* antes de usarla. El tipo se asigna automáticamente cuando se le asigna un valor por primera vez.
+* **No es necesario declararlas**: a diferencia de otros lenguajes, *en Python no se necesita declarar el tipo de dato de una variable* antes de usarla. El tipo se asigna automáticamente cuando se le asigna un valor por primera vez.
   
 * **Tipado dinámico**: Python *es un lenguaje de tipado dinámico*, lo que significa que el tipo de dato de una variable puede cambiar a lo largo del programa.
   
-* **Nombres significativos**: Es recomendable *utilizar nombres descriptivos para las variables*, que indiquen claramente qué tipo de información almacenan.
+* **Nombres significativos**: es recomendable *utilizar nombres descriptivos para las variables*, que indiquen claramente qué tipo de información almacenan.
   
 * **Sensibilidad a mayúsculas y minúsculas**: Python distingue entre mayúsculas y minúsculas en los nombres de las variables. Por ejemplo, nombre y NOMBRE son variables diferentes.  
 
