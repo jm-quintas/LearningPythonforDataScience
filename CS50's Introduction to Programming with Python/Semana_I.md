@@ -458,6 +458,24 @@ Sol: Cual es tu nombre?: *NicLau*
 Hola *NicLau*
 
 ```{python}
+# Definimos una función, con x como parámetro:
+def hello(x = "mundo"):
+    print("Hola", x)
+
+#Llamamos la función hello.
+hello()
+
+# Definimos una variable que tendra como valor la información obtenida desde el usuario. 
+name = input("Cual es tu nombre?: ")
+# La función hello toma como parámetro la variable name, la cual, sera el valor del parámetro x. 
+hello(name)
+```
+Sol:  
+Hola mundo  
+Cual es tu nombre?: *NicLua*  
+Hola *NicLau*  
+
+```{python}
 # Definimos una función que realiza la operación de sumar dos números.
 def sumar(a, b):
   """
