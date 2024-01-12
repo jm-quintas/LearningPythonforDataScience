@@ -453,6 +453,8 @@ name = input("Cual es tu nombre?: ")
 # La función hello toma como parámetro la variable name, la cual, sera el valor del parámetro x. 
 hello(name)
 ```
+Sol: Cual es tu nombre?: *NicLau*  
+Hola *NicLau*
 
 ```{python}
 # Definimos una función que realiza la operación de sumar dos números.
