@@ -458,6 +458,7 @@ Sol: Cual es tu nombre?: *NicLau*
 Hola *NicLau*
 
 ```{python}
+# Definimos una función que genera un saludo.
 # Definimos una función, con x como parámetro:
 def hello(x = "mundo"):
     print("Hola", x)
@@ -497,13 +498,17 @@ print(resultado)
 Sol: 3  
 
 ```{python}
+# Programa que calcula el cuadrado de cualquier número.
+# Función principal:
 def main():
    x = int(input("Cual es el valor de x: "))
    print("El cuadrado de x es", cuadrado(x))
 
+# Función que permite calcular el cuadrado de cualquier número:
 def cuadrado(n):
    return n ** 2
 
+# Invocamos o llamamos la función:
 main()
 ```
 Sol:  
