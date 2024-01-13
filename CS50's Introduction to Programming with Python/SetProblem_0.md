@@ -21,8 +21,13 @@ hello
 Introduce un mensaje: *THIS IS CS50*  
 this is cs50  
 
-Introduce un mensaje: *50*  
-50  
+Códigos alternativos:
+```python
+mensaje = (input("Introduce un mensaje: ")).lower()
+
+# Salida:
+print(mensaje)
+```
 
 
 
