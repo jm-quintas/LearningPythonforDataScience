@@ -171,7 +171,7 @@ No se puede utilizar una palabra reservada («keywords») del lenguaje python (r
 nombre = input("Cual es tu nombre: ")
 
 # Imprimir en la consola un saludo con el nombre del usuario.
-print("Hola,", name)        #Opción 2
+print("Hola,", name)
 ```
 Sol: Cual es tu nombre: *NicLau*  
        Hola, *NicLau* 
