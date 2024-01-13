@@ -151,7 +151,19 @@ Para crear una variable en Python, simplemente se le asigna un valor utilizando 
 ```python
 nombre = valor
 ```
-No se puede utilizar una palabra reservada del lenguaje python (revisar documentación) como nombre de variable.
+
+### Reglas para nombrar variables.
+En Python existen una serie de reglas para los nombres de variables:
+
+* Sólo pueden contener los siguientes caracteres:
+  * Letras minúsculas.  
+  * Letras mayúsculas.  
+  * Dígitos.  
+  * Guiones bajos (_).  
+
+* Deben empezar con una letra o un guión bajo, nunca con un dígito.
+
+No se puede utilizar una palabra reservada («keywords») del lenguaje python (revisar documentación) como nombre de variable.
 
 ```python
 # Programa que genera un saludo.
