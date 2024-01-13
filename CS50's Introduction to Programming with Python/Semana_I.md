@@ -63,7 +63,7 @@ nombre_funcion_python("argumento")
 ```
 
 ### **Función print()**.
-Imprime un mensaje en la terminal o consola de comandos.
+*Imprime un mensaje* en la terminal o consola de comandos.
 
 ```python
 print("Hola, mundo")
