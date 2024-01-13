@@ -159,7 +159,6 @@ No se puede utilizar una palabra reservada del lenguaje python (revisar document
 nombre = input("Cual es tu nombre: ")
 
 # Imprimir en la consola un saludo con el nombre del usuario.
-print("Hola, " + name)      #Opción 1, el sigo + significa que es una concatenación (unir dos o más cadenas de texto).
 print("Hola,", name)        #Opción 2
 ```
 Sol: Cual es tu nombre: *NicLau*  
@@ -177,7 +176,7 @@ nombre = input("Cual es tu nombre: ")
 nombre = nombre.capitalize()
 
 # Imprimir en la consola un saludo con el nombre del usuario.
-print("Hola, " + name)
+print("Hola, ", name)
 ```
 Sol: Cual es tu nombre: *nicLau*  
     Hola, *NicLau*  
@@ -194,7 +193,7 @@ nombre = input("Cual es tu nombre: ")
 nombre = nombre.strip().capitalize()
 
 # Imprimir en la consola un saludo con el nombre del usuario.
-print("Hola, " + name)
+print("Hola, ", name)
 ```
 Sol: Cual es tu nombre: (espacio en blanco) *niclau*     
 Hola, *Niclau*  
