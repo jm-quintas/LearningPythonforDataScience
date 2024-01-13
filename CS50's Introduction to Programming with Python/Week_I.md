@@ -428,7 +428,7 @@ La conversión explícita de tipos de datos se realiza utilizando funciones o m�
 * **bool()**: convierte un valor a un valor booleano.
 
 ### Convertir dato tipo str a int.
-```{python}
+```python
 # Valores introducidos por el usuario, convertimos de un tipo de dato string a integer, y asignamos cada valor a una variable:
 x = int(input("Introduce un valor para 'x': "))
 y = int(input("Introduce un valor para 'y': "))
@@ -441,7 +441,7 @@ Introduce un valor para 'x': 1 (introducido por el usuario)
 Introduce un valor para 'y': 2 (introducido por el usuario)  
 3  
 
-```{python}
+```python
 # Valores introducidos por el usuario, y cada uno asignados a una variable:
 x = input("Introduce un valor para 'x': ")
 y = input("Introduce un valor para 'y': ")
@@ -458,7 +458,7 @@ Introduce un valor para 'y': 2 (introducido por el usuario)
 3    
 
 ### Convertir dato tipo str a float.
-```{python}
+```python
 # Valores introducidos por el usuario, convertimos de un tipo de dato string a float, y asignamos cada valor a una variable:
 x = float(input("Introduce un valor para 'x': "))
 y = float(input("Introduce un valor para 'y': "))
@@ -474,7 +474,7 @@ Introduce un valor para 'y': 3.4 (introducido por el usuario)
 
 En Python, la función **round()** se utiliza para *redondear un número a un número entero o a un número decimal* con una precisión determinada. La sintaxis de la función es la siguiente:
 
-```{python}
+```python
 round(número, ndigitos)
 ```
 
@@ -482,15 +482,15 @@ round(número, ndigitos)
 
 En Python, también existe la función **math.floor()**, que redondea un número **hacia abajo**, y la función **math.ceil()**, que redondea un número **hacia arriba**. La sintaxis de estas funciones es la siguiente:  
 
-```{python}
+```python
 math.floor(número)
 ```
 
-```{python}
+```python
 math.ceil(número)
 ```
 
-```{python}
+```python
 x = float(input("Introduce un valor para 'x': "))
 y = float(input("Introduce un valor para 'y': "))
 
@@ -502,7 +502,7 @@ Introduce un valor para 'x': 2
 Introduce un valor para 'y': 4.6  
 7  
 
-```{python}
+```python
 x = float(input("Introduce un valor para 'x': "))
 y = float(input("Introduce un valor para 'y': "))
 
@@ -512,7 +512,7 @@ print(f"{z:,}")
 ```
 Sol: 1,000  
 
-```{python}
+```python
 x = float(input("Introduce un valor para 'x': "))
 y = float(input("Introduce un valor para 'y': "))
 
@@ -522,7 +522,7 @@ print(z)
 ```
 Sol: 0.6666666666666666  
 
-```{python}
+```python
 x = float(input("Introduce un valor para 'x': "))
 y = float(input("Introduce un valor para 'y': "))
 
@@ -533,7 +533,7 @@ print(z)
 Sol: 0.67  
 
 Otra manera de hacerlo es la siguiente:
-```{python}
+```python
 x = float(input("Introduce un valor para 'x': "))
 y = float(input("Introduce un valor para 'y': "))
 
@@ -552,7 +552,7 @@ Los **parámetros** de una función *son valores que se pueden pasar a la funci�
 
 El valor de **retorno (return)** de una función es el *valor que se devuelve cuando la función se completa*. El valor de retorno puede ser de cualquier tipo, incluidos números, cadenas, listas, etc.
 
-```{python}
+```python
 # Definimos una función que genera un saludo.
 # Definimos una función, con x como parámetro:
 def hello(x):
@@ -566,7 +566,7 @@ hello(name)
 Sol: Cual es tu nombre?: *NicLau*  
 Hola *NicLau*
 
-```{python}
+```python
 # Definimos una función que genera un saludo.
 # Definimos una función, con x como parámetro:
 def hello(x = "mundo"):
@@ -585,7 +585,7 @@ Hola mundo
 Cual es tu nombre?: *NicLua*  
 Hola *NicLau*  
 
-```{python}
+```python
 # Definimos una función que realiza la operación de sumar dos números.
 def sumar(a, b):
   """
@@ -606,7 +606,7 @@ print(resultado)
 ```
 Sol: 3  
 
-```{python}
+```python
 # Programa que calcula el cuadrado de cualquier número.
 # Función principal:
 def main():
