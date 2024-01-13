@@ -90,30 +90,13 @@ print("Hola, mundo", end=".")
 ```
 Sol: Hola, mundo.  
 
-```python
-# Preguntar al usuario su nombre.
-nombre = input("Cual es tu nombre: ")
-
-# Imprimir en la consola un saludo con el nombre del usuario.
-print("Hola, ")
-print(nombre)
-```
-Sol: Cual es tu nombre: *NicLau*  
-    Hola,  
-    *NicLau*  
-
 Para evitar el salto de línea podemos utilizar uno de los parámetros de la función print().
 
 ```python
-# Preguntar al usuario su nombre.
-nombre = input("Cual es tu nombre: ")
-
-# Imprimir en la consola un saludo con el nombre del usuario.
 print("Hola, ", end = "")      #Se utilizó el parametro end sin "\n" para evitar el salto de línea.
-print(nombre)
+print("mundo")
 ```
-Sol: Cual es tu nombre: *NicLau*  
-      Hola, *NicLau*  
+Sol: Hola, mundo 
 
 ### **Función input()**.
 Se utiliza para solicitar al usuario que *introduzca datos por teclado*. La función ***input()** devuelve una cadena de texto*, por lo que es necesario convertirla al tipo de datos deseado. Su sintaxis es la siguiente:
