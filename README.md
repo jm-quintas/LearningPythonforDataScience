@@ -2,6 +2,7 @@
 ![](https://github.com/jairomqcode/LearningPythonforDataScience/blob/main/CS50's%20Introduction%20to%20Programming%20with%20Python/harvard.png)  
 **Professional Certificate Program**: ***Learning Python for Data Science***.    
 **PhD. David J. Malan**   
+
 **Libros de referencias**:  
 1. Docs.python.org, [Sitio web](https://docs.python.org/es/3/tutorial/index.html).
 2. Aprende Python, Sergio Delgado Quintero, [Sitio web](https://aprendepython.es/).  
