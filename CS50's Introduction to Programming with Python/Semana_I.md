@@ -63,12 +63,26 @@ nombre_funcion_python("argumento")
 ```
 
 ### **Función print()**.
-*Imprime un mensaje* en la terminal o consola de comandos.
+Es una función incorporada que *se utiliza para mostrar mensajes en la pantalla*. Es muy útil cuando se desea mostrar el resultado de una operación o simplemente para imprimir un mensaje para el usuario. La sintaxis básica de la función ***print()*** es la siguiente:  
+
+```python
+print(argumentos)
+```
+
+Los argumentos pueden ser de cualquier tipo, incluyendo cadenas, números, listas, diccionarios, etc. Por ejemplo, el siguiente código imprime en la cadena *Hola, mundo* en la pantalla: 
 
 ```python
 print("Hola, mundo")
 ```
 Sol: Hola, mundo  
+
+La función ***print()*** también tiene algunos parámetros opcionales que se pueden utilizar para personalizar la salida. Escrita en su forma general:
+
+```python
+print(*objects, sep=' ', end='\n', file=None, flush=False)
+```
+
+Imprime *objects* al flujo de texto *file*, separándolos por *sep* y seguidos por *end*. 
 
 ### **Función input()**.
 Se utiliza para solicitar al usuario que *introduzca datos por teclado*. La función ***input()** devuelve una cadena de texto*, por lo que es necesario convertirla al tipo de datos deseado. Su sintaxis es la siguiente:
