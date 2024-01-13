@@ -3,7 +3,7 @@ Implementar un programa en Python que solicite al usuario una entrada y luego ge
 
 ```python
 # Creamos una variable que almacenará la información generada por el usuario:
-mensage = input("Introduce un mensaje: ")
+mensaje = input("Introduce un mensaje: ")
 
 """
 Creamos una nueva variable que almacenará la nueva cadena de texto transformada.
