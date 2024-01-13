@@ -25,8 +25,12 @@ Códigos alternativos:
 ```python
 mensaje = (input("Introduce un mensaje: ")).lower()
 
-# Salida:
 print(mensaje)
+```
+```python
+mensaje = input("Introduce un mensaje: ")
+
+print(mensaje.lower())
 ```
 
 
