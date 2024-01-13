@@ -84,6 +84,11 @@ print(*objects, sep=' ', end='\n', file=None, flush=False)
 
 Imprime *objects* al flujo de texto *file*, separándolos por *sep* (separador que se utilizará entre los argumentos) y seguidos por *end* (especificar el carácter que se utilizará al final de la salida).  
 
+```python
+# Se utiliza el parámetro end con el argumento "." para indicar que el mensaje terminará con un punto.
+print("Hola, mundo", end=".")
+
+
 ### **Función input()**.
 Se utiliza para solicitar al usuario que *introduzca datos por teclado*. La función ***input()** devuelve una cadena de texto*, por lo que es necesario convertirla al tipo de datos deseado. Su sintaxis es la siguiente:
 
