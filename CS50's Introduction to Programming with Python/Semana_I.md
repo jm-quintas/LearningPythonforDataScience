@@ -126,6 +126,7 @@ Para crear una variable en Python, simplemente se le asigna un valor utilizando 
 ```python
 nombre = valor
 ```
+No se puede utilizar una palabra reservada del lenguaje python (revisar documentación) como nombre de variable.
 
 ```{python}
 # Preguntar al usuario su nombre.
