@@ -159,8 +159,9 @@ Sol: Cual es tu nombre: *nicLau*
 
 También, podemos combinar parámetros:  
 
-```{python}
-# Preguntar al usuario su nombre.
+```python
+# Generar un saludo.
+# Preguntar al usuario su nombre, guardar la información en una variable.
 nombre = input("Cual es tu nombre: ")
 
 # .strip(), elimina cualquier espacio provocado por el usuario al editar la entrada de texto
@@ -178,7 +179,7 @@ Es el proceso de *unir dos o más cadenas de texto*. Se puede realizar utilizand
 
 Sintaxis de la concatenación en Python:  
 
-```{python}
+```python
 cadena1 = "texto1, "
 cadena2 = "texto2"
 
@@ -189,7 +190,7 @@ Sol: texto1, texto2
 Otras formas de concatenar cadenas en Python:  
 * **Método format()**: se puede utilizar para concatenar cadenas de texto y valores.
 
-```{python}
+```python
 nombre = "NicLau"
 edad = 15
 
@@ -199,7 +200,7 @@ Sol: Hola, mi nombre es *NicLau* y tengo *15* años.
 
 * **Operador f-string**: se puede utilizar para concatenar cadenas de texto y valores de forma más concisa.
 
-```{python}
+```python
 nombre = "NicLau"
 edad = 15
 
@@ -207,7 +208,7 @@ print(f"Hola, mi nombre es {nombre} y tengo {edad} años.")
 ```
 Sol: Hola, mi nombre es *NicLau* y tengo *15* años.  
 
-## Parametros dentro de la función print().
+## Parámetros dentro de la función print().
 Como se definio anteriormente la función *print() en Python se utiliza para imprimir información* en la pantalla. La función print() tiene los siguientes parámetros:  
 
 * **objeto**: el objeto que se desea imprimir. Puede ser una cadena de texto, un número, una lista, una tupla, un diccionario, etc.  
