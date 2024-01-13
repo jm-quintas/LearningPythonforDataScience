@@ -14,6 +14,15 @@ mensaje_minuscula = mensaje.lower()
 # Salida:
 print(mensaje_minuscula)
 ```
+Sol:  
+Introduce un mensaje: *HELLO*  
+hello  
+
+Introduce un mensaje: *THIS IS CS50*  
+this is cs50  
+
+Introduce un mensaje: *50*  
+50  
 
 
 
