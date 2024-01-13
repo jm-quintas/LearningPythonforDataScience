@@ -216,11 +216,11 @@ Hola, *Niclau*
 
 ### Como regla general.
 
-* Usar nombres para variables (ejemplo article).
+* Usar ***nombres*** para variables (ejemplo article).
 
-* Usar verbos para funciones (ejemplo get_article()).
+* Usar ***verbos*** para funciones (ejemplo get_article()).
 
-* Usar adjetivos para booleanos (ejemplo available).
+* Usar ***adjetivos*** para booleanos (ejemplo available).
 
 ## Concatenación en Python.
 Es el proceso de *unir dos o más cadenas de texto*. Se puede realizar utilizando el operador de concatenación **+**.  
