@@ -214,6 +214,14 @@ print("Hola,", nombre)
 Sol: Cual es tu nombre: (espacio en blanco) *niclau*     
 Hola, *Niclau*  
 
+### Como regla general.
+
+* Usar nombres para variables (ejemplo article).
+
+* Usar verbos para funciones (ejemplo get_article()).
+
+* Usar adjetivos para booleanos (ejemplo available).
+
 ## Concatenación en Python.
 Es el proceso de *unir dos o más cadenas de texto*. Se puede realizar utilizando el operador de concatenación **+**.  
 
