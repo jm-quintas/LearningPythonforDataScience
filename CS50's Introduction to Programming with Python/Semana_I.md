@@ -140,12 +140,14 @@ print("Hola,", name)        #Opción 2
 Sol: Cual es tu nombre: *NicLau*  
        Hola, *NicLau* 
 
-También, podemos documentarnos sobre los parametros y argumentos que se pueden aplicar a las variables, para esto podemos consultar la página oficial [docs.Python.org](https://docs.python.org/3/)
+También, podemos documentarnos sobre los parámetros y argumentos que se pueden aplicar a las variables, para esto podemos consultar la página oficial [docs.Python.org](https://docs.python.org/3/)
 
-```{python}
-# Preguntar al usuario su nombre.
+```python
+# Generar un saludo con el nombre de un usuario.
+# Preguntar al usuario su nombre, almacenar la información en una variable.
 nombre = input("Cual es tu nombre: ")
 
+# Utilizar un parámetro.
 # .capitalize(), colocará la primera letra del string introducido por el usuario en mayúscula, independientemente como lo edite.
 nombre = nombre.capitalize()
 
