@@ -174,7 +174,11 @@ nombre = input("Cual es tu nombre: ")
 print("Hola,", nombre)
 ```
 Sol: Cual es tu nombre: *NicLau*  
-       Hola, *NicLau* 
+       Hola, *NicLau*  
+
+Existe una convención para la *nomenclatura de las variables*, se utiliza el llamado **snake_case** en el que utilizamos caracteres en minúsculas (incluyendo dígitos si procede) junto con guiones bajos _ cuando sean necesarios para su legibilidad. Por ejemplo, para nombrar una variable que almacene el número de canciones en nuestro ordenador, podríamos usar num_songs.  
+
+Un caso especial y que vale la pena destacar son las ***constantes***. Podríamos decir que es un tipo de variable pero que su valor no cambia a lo largo de nuestro programa. Por ejemplo la velocidad de la luz. Sabemos que su valor es constante de 300.000 km/s. En el caso de las constantes utilizamos mayúsculas (incluyendo guiones bajos si es necesario) para nombrarlas. Para la velocidad de la luz nuestra constante se podría llamar: LIGHT_SPEED.
 
 También, podemos documentarnos sobre los parámetros y argumentos que se pueden aplicar a las variables, para esto podemos consultar la página oficial [docs.Python.org](https://docs.python.org/3/)
 
