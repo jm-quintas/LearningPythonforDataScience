@@ -289,6 +289,7 @@ type(objeto)
 ```
 
 ```python
+#Definimos variables y le asignamos valores.
 numero_entero = 7
 numero_decimal = 7.7
 temperatura = 24.5
@@ -308,6 +309,52 @@ class 'float'
 class 'float'  
 class 'complex'  
 class 'str'  
+
+Se debe destacar que las variables son nombres, no lugares. Detrás de esta frase se esconde la reflexión de que cuando asignamos un valor a una variable, lo que realmente está ocurriendo es que *se hace apuntar el nombre de la variable a una zona de memoria en el que se representa el objeto (con su valor)*.
+
+```python
+a = 7
+```
+
+Si ahora copiamos el valor de **a** en otra variable **b** se podría esperar que hubiera otro espacio en memoria para dicho valor, pero como ya hemos dicho, son referencias a memoria.
+
+```python
+b = a
+```
+
+La función **id()** nos permite *conocer la dirección de memoria de un objeto* en Python. A través de ella podemos comprobar que las dos variables que hemos creado apuntan a la misma zona de memoria.
+
+```python
+# Asignamos un valor a la variable a.
+a = 7
+# Creamos una variable b que contenga a la variable a.
+b = a
+
+# Imprimirá como salida la dirección donde se almacena en la memoria los valores de las variables, en este caso debe ser la misma.
+print(id(a))
+print(id(b))
+```
+Sol:  
+140353359179912  
+140353359179912  
+
+La prueba de que la zona de memoria no la ocupa el nombre de la variable, es que podemos ver cómo se asigna una dirección de memoria únicamente al valor literal.
+
+```python
+# Asignamos un valor a la variable a.
+a = 7
+# Creamos una variable b que contenga a la variable a.
+b = 8
+
+# Imprimirá como salida la dirección donde se almacena en la memoria los valores de las variables, en este caso debe ser diferente.
+print(id(a))
+print(id(b))
+```
+Sol:  
+140614580433032  
+140614580433064  
+
+Cada vez que asignamos un nuevo valor a una variable, ésta apunta a una nueva zona de memoria. Cuando la zona de memoria que ocupa el objeto se puede modificar hablamos de tipos de datos mutables. En otro caso hablamos de tipos de datos inmutables.  
 
 ### **Operaciones con tipos de datos**.
 
