@@ -387,7 +387,7 @@ En Python, las operaciones aritméticas **se realizan de izquierda a derecha**, 
 | +, - | 3 |
 
 
-```{python}
+```python
 # Definimos dos variables.
 x = 2
 y = 1
