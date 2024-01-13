@@ -82,13 +82,38 @@ La función ***print()*** también tiene algunos parámetros opcionales que se p
 print(*objects, sep=' ', end='\n', file=None, flush=False)
 ```
 
-Imprime *objects* al flujo de texto *file*, separándolos por *sep* (separador que se utilizará entre los argumentos) y seguidos por *end* (especificar el carácter que se utilizará al final de la salida).  
+Imprime *objects* (el objeto que se desea imprimir. Puede ser una cadena de texto, un número, una lista, una tupla, un diccionario, etc.) al flujo de texto *file*, separándolos por *sep* (separador que se utilizará entre los argumentos) y seguidos por *end* (especificar el carácter que se utilizará al final de la salida).  
 
 ```python
 # Se utiliza el parámetro end con el argumento "." para indicar que el mensaje terminará con un punto.
 print("Hola, mundo", end=".")
 ```
 Sol: Hola, mundo.  
+
+```python
+# Preguntar al usuario su nombre.
+nombre = input("Cual es tu nombre: ")
+
+# Imprimir en la consola un saludo con el nombre del usuario.
+print("Hola, ")
+print(nombre)
+```
+Sol: Cual es tu nombre: *NicLau*  
+    Hola,  
+    *NicLau*  
+
+Para evitar el salto de línea podemos utilizar uno de los parámetros de la función print().
+
+```python
+# Preguntar al usuario su nombre.
+nombre = input("Cual es tu nombre: ")
+
+# Imprimir en la consola un saludo con el nombre del usuario.
+print("Hola, ", end = "")      #Se utilizó el parametro end = "" para evitar el salto de línea.
+print(nombre)
+```
+Sol: Cual es tu nombre: *NicLau*  
+      Hola, *NicLau*  
 
 ### **Función input()**.
 Se utiliza para solicitar al usuario que *introduzca datos por teclado*. La función ***input()** devuelve una cadena de texto*, por lo que es necesario convertirla al tipo de datos deseado. Su sintaxis es la siguiente:
@@ -207,42 +232,6 @@ edad = 15
 print(f"Hola, mi nombre es {nombre} y tengo {edad} años.")
 ```
 Sol: Hola, mi nombre es *NicLau* y tengo *15* años.  
-
-## Parámetros dentro de la función print().
-Como se definio anteriormente la función *print() en Python se utiliza para imprimir información* en la pantalla. La función print() tiene los siguientes parámetros:  
-
-* **objeto**: el objeto que se desea imprimir. Puede ser una cadena de texto, un número, una lista, una tupla, un diccionario, etc.  
- 
-* **sep**: el separador que se utilizará entre los objetos. El valor predeterminado es un espacio.  
-  
-* **end**: el carácter que se *imprimirá al final*. El valor predeterminado es una nueva línea.  
-
-* **file**: el objeto de archivo en el que se imprimirá la información. El valor predeterminado es la salida estándar.  
-
-```{python}
-# Preguntar al usuario su nombre.
-nombre = input("Cual es tu nombre: ")
-
-# Imprimir en la consola un saludo con el nombre del usuario.
-print("Hola, ")
-print(nombre)
-```
-Sol: Cual es tu nombre: *NicLau*  
-    Hola,  
-    *NicLau*  
-
-Para evitar el salto de línea podemos utilizar uno de los parámetros de la función print().
-
-```{python}
-# Preguntar al usuario su nombre.
-nombre = input("Cual es tu nombre: ")
-
-# Imprimir en la consola un saludo con el nombre del usuario.
-print("Hola, ", end = "")      #Se utilizó el parametro end = "" para evitar el salto de línea.
-print(nombre)
-```
-Sol: Cual es tu nombre: *NicLau*  
-      Hola, *NicLau*  
 
 ## Tipos de datos en Python.
 En Python, un tipo de dato se refiere a la **clasificación de los valores que pueden ser almacenados en una variable*. Cada tipo de dato tiene características y propiedades específicas que lo hacen adecuado para ciertos usos y operaciones.  
