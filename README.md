@@ -1,5 +1,5 @@
 # **Harvard University | HarvardX**  
-![](https://github.com/jairomqcode/LearningPythonforDataScience/blob/main/CS50's%20Introduction%20to%20Programming%20with%20Python/harvard.png)
+![](https://github.com/jairomqcode/LearningPythonforDataScience/blob/main/CS50's%20Introduction%20to%20Programming%20with%20Python/harvard.png)  
 Professional Certificate Program: **Learning Python for Data Science**.  
 **PhD. David J. Malan**  
 **Libros de referencias**:  
