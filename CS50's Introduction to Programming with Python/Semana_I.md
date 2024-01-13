@@ -109,7 +109,7 @@ Para evitar el salto de línea podemos utilizar uno de los parámetros de la fun
 nombre = input("Cual es tu nombre: ")
 
 # Imprimir en la consola un saludo con el nombre del usuario.
-print("Hola, ", end = "")      #Se utilizó el parametro end = "" para evitar el salto de línea.
+print("Hola, ", end = "")      #Se utilizó el parametro end sin "\n" para evitar el salto de línea.
 print(nombre)
 ```
 Sol: Cual es tu nombre: *NicLau*  
@@ -171,7 +171,7 @@ No se puede utilizar una palabra reservada («keywords») del lenguaje python (r
 nombre = input("Cual es tu nombre: ")
 
 # Imprimir en la consola un saludo con el nombre del usuario.
-print("Hola,", name)
+print("Hola,", nombre)
 ```
 Sol: Cual es tu nombre: *NicLau*  
        Hola, *NicLau* 
@@ -188,7 +188,7 @@ nombre = input("Cual es tu nombre: ")
 nombre = nombre.capitalize()
 
 # Imprimir en la consola un saludo con el nombre del usuario.
-print("Hola, ", name)
+print("Hola,", nombre)
 ```
 Sol: Cual es tu nombre: *nicLau*  
     Hola, *NicLau*  
@@ -205,7 +205,7 @@ nombre = input("Cual es tu nombre: ")
 nombre = nombre.strip().capitalize()
 
 # Imprimir en la consola un saludo con el nombre del usuario.
-print("Hola, ", name)
+print("Hola,", nombre)
 ```
 Sol: Cual es tu nombre: (espacio en blanco) *niclau*     
 Hola, *Niclau*  
