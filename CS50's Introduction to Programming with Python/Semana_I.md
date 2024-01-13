@@ -281,7 +281,7 @@ Los tipos de datos en Python se pueden dividir en dos categorías principales:
   * **Diccionarios (dictionaries)**: se utilizan para almacenar valores de datos en pares claves:valor.  
 * **Conjuntos**: representan colecciones de datos sin elementos duplicados.
 
-### Conoccer el tipo de dato de una variable u objeto.
+### Función type().
 Para poder descubrir el tipo de dato de una variable, Python nos ofrece la función ***type()***. La sintaxis de la función es la siguiente:
 
 ```python
