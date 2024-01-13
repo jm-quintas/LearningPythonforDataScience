@@ -255,7 +255,7 @@ print(f"Hola, mi nombre es {nombre} y tengo {edad} años.")
 Sol: Hola, mi nombre es *NicLau* y tengo *15* años.  
 
 ## Tipos de datos en Python.
-En Python, un tipo de dato se refiere a la **clasificación de los valores que pueden ser almacenados en una variable*. Cada tipo de dato tiene características y propiedades específicas que lo hacen adecuado para ciertos usos y operaciones.  
+En Python, un tipo de dato se refiere a la *clasificación de los valores que pueden ser almacenados en una variable*. Cada tipo de dato tiene características y propiedades específicas que lo hacen adecuado para ciertos usos y operaciones.  
 
 Los tipos de datos en Python se pueden dividir en dos categorías principales:
 
@@ -263,7 +263,6 @@ Los tipos de datos en Python se pueden dividir en dos categorías principales:
 * **Tipos compuestos**: son tipos de datos que se basan en otros tipos de datos básicos.
 
 ### **Tipos básicos**.  
-
 * **Textos (String)**: representan cadenas de caracteres.
 
 * **Númericos**: representan números. Los tipos numéricos en Python son:  
@@ -274,7 +273,6 @@ Los tipos de datos en Python se pueden dividir en dos categorías principales:
 * **Booleanos**: representan valores lógicos, verdaderos (True) o falsos (False).
 
 ### **Tipos compuestos**.
-  
 * **Secuencias**: representan colecciones de datos ordenados. Los tipos de secuencias en Python son:
   * **Listas (list)**: representan colecciones mutables de datos.
   * **Tuplas (tuple)**: representan colecciones inmutables de datos.
@@ -282,6 +280,13 @@ Los tipos de datos en Python se pueden dividir en dos categorías principales:
 * **Mapas (map)**: representan asociaciones entre claves y valores.
   * **Diccionarios (dictionaries)**: se utilizan para almacenar valores de datos en pares claves:valor.  
 * **Conjuntos**: representan colecciones de datos sin elementos duplicados.
+
+### Conoccer el tipo de dato de una variable u objeto.
+Para poder descubrir el tipo de dato de una variable, Python nos ofrece la función ***type()***. La sintaxis de la función es la siguiente:
+
+```python
+type(objeto)
+```
 
 ### **Operaciones con tipos de datos**.
 
