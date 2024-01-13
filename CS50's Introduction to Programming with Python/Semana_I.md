@@ -288,6 +288,27 @@ Para poder descubrir el tipo de dato de una variable, Python nos ofrece la funci
 type(objeto)
 ```
 
+```python
+numero_entero = 7
+numero_decimal = 7.7
+temperatura = 24.5
+numero_complejo = 1 + 2j
+texto = "hola"
+
+#Salida y tipo de dato:
+print(type(numero_entero))
+print(type(numero_decimal))
+print(type(temperatura))
+print(type(numero_complejo))
+print(type(texto))
+```
+Sol:  
+class 'int'  
+class 'float'  
+class 'float'  
+class 'complex'  
+class 'str'  
+
 ### **Operaciones con tipos de datos**.
 
 Los tipos de datos en Python pueden ser operados entre sí mediante diferentes tipos de operaciones. Las operaciones más comunes son:  
