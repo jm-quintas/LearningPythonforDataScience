@@ -76,13 +76,13 @@ print("Hola, mundo")
 ```
 Sol: Hola, mundo  
 
-La función ***print()*** también tiene algunos parámetros opcionales que se pueden utilizar para personalizar la salida. Escrita en su forma general:
+La función ***print()*** también tiene algunos parámetros opcionales que se pueden utilizar para personalizar la salida. Escrita en su forma general por defecto:
 
 ```python
 print(*objects, sep=' ', end='\n', file=None, flush=False)
 ```
 
-Imprime *objects* al flujo de texto *file*, separándolos por *sep* y seguidos por *end*. 
+Imprime *objects* al flujo de texto *file*, separándolos por *sep* (separador que se utilizará entre los argumentos) y seguidos por *end* (especificar el carácter que se utilizará al final de la salida).  
 
 ### **Función input()**.
 Se utiliza para solicitar al usuario que *introduzca datos por teclado*. La función ***input()** devuelve una cadena de texto*, por lo que es necesario convertirla al tipo de datos deseado. Su sintaxis es la siguiente:
