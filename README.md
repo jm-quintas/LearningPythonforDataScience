@@ -1,4 +1,4 @@
-# **Harvard University | HarvardX**  ![](https://upload.wikimedia.org/wikipedia/commons/2/25/Harvard_University_shield.png){width=100 height=100}
+# **Harvard University | HarvardX**  ![](https://upload.wikimedia.org/wikipedia/commons/2/25/Harvard_University_shield.png){width='100px' height='100px'}
 Professional Certificate Program: **Learning Python for Data Science**.  
 **PhD. David J. Malan**  
 **Libros de referencias**:  
