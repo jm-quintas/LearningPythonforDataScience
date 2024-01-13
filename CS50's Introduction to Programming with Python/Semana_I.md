@@ -128,8 +128,9 @@ nombre = valor
 ```
 No se puede utilizar una palabra reservada del lenguaje python (revisar documentación) como nombre de variable.
 
-```{python}
-# Preguntar al usuario su nombre.
+```python
+# Programa que genera un saludo.
+# Preguntar al usuario su nombre, guardar la información en una variable.
 nombre = input("Cual es tu nombre: ")
 
 # Imprimir en la consola un saludo con el nombre del usuario.
