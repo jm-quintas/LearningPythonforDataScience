@@ -123,9 +123,8 @@ Características principales de las variables en Python:
 
 Para crear una variable en Python, simplemente se le asigna un valor utilizando el operador de **asignación =**. Por ejemplo:  
 
-```{python}
-nombre = "Jairo"
-edad = 39
+```python
+nombre = valor
 ```
 
 ```{python}
