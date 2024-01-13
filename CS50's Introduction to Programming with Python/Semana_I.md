@@ -71,7 +71,7 @@ print("Hola, mundo")
 Sol: Hola, mundo  
 
 ### **Función input()**.
-Se utiliza para solicitar al usuario que *introduzca datos por teclado*. La función **input() devuelve una cadena de texto**, por lo que es necesario convertirla al tipo de datos deseado. Su sintaxis es la siguiente:
+Se utiliza para solicitar al usuario que *introduzca datos por teclado*. La función *input() devuelve una cadena de texto*, por lo que es necesario convertirla al tipo de datos deseado. Su sintaxis es la siguiente:
 
 ```python
 input(prompt)
