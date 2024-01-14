@@ -97,10 +97,10 @@ Código alternativo:
 ```python
 def main():
     texto = input()
-    textofinal = convert(texto)
+    textofinal = transformar(texto)
     print(textofinal)
 
-def convert(texto):
+def transformar(texto):
    carita = texto.replace(":)" , "🙂").replace(":(" , "🙁")
    return carita
 
