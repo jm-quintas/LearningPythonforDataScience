@@ -33,5 +33,7 @@ mensaje = input("Introduce un mensaje: ")
 print(mensaje.lower())
 ```
 
+## Problema 2: Velocidad de reproducción.
+Implemente un programa en Python que solicite al usuario una entrada y luego genere esa misma entrada, reemplazando cada espacio con ...(es decir, tres puntos).
 
 
