@@ -109,3 +109,6 @@ main()
 Sol:  
 *hello :(*  
 *hello* 🙁  
+
+## Problema 4: Einstein.
+Calcular la energía a través de la famosa ecuación de Einstein *E = m*c^2* (Kg m^2 / s^2). Permita que el usuario introduzca el valor para la masa.
