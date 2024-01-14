@@ -123,7 +123,6 @@ v_light = 300000000
 # Definimos la ecuación para la energía:
 energy = m * (v_light ** 2)
 
-
 # Resultado:
 print(energy)
 ```
