@@ -51,4 +51,14 @@ print(mensaje_nuevo)
 ```
 Sol:  
 Introduce un mensaje: *This is CS50*  
-*This...is...CS50*
+*This...is...CS50*  
+
+Código alternativo:
+```python
+mensaje = input("Introduce un mensaje: ")
+print(mensaje.replace(" ", "..."))
+```
+Sol:  
+Introduce un mensaje: *This is CS50*  
+*This...is...CS50*  
+
