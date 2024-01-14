@@ -36,4 +36,19 @@ print(mensaje.lower())
 ## Problema 2: Velocidad de reproducción.
 Implemente un programa en Python que solicite al usuario una entrada y luego genere esa misma entrada, reemplazando cada espacio con ...(es decir, tres puntos).
 
+```python
+# Creamos una variable que contenga el mensaje introducido por el usuario:
+mensaje = input("Introduce un mensaje: ")
 
+"""
+Creamos una nueva variable que contenga el mensaje formateado.
+Utilizamos el método .replace() para reemplazar el espacio en blanco por ... (3 puntos) entre las cadenas de caracteres.
+"""
+mensaje_nuevo = mensaje.replace(" ", "...")
+
+# Salida del mensaje:
+print(mensaje_nuevo)
+```
+Sol:  
+Introduce un mensaje: *This is CS50*  
+*This...is...CS50*
