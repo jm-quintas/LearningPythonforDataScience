@@ -111,4 +111,22 @@ Sol:
 *hello* 🙁  
 
 ## Problema 4: Einstein.
-Calcular la energía a través de la famosa ecuación de Einstein *E = m*c^2* (Kg m^2 / s^2). Permita que el usuario introduzca el valor para la masa.
+Calcular la energía a través de la famosa ecuación de Einstein *E = m*c^2* (Kg m^2 / s^2). Permita que el usuario introduzca el valor para la masa como un número entero (en kilogramos) y luego genere el número equivalente de julios como un número entero.
+
+```python
+# Valor de entrada para la masa:
+m = int(input("m: "))
+
+# Definimos la constante para la velocidad de la Luz:
+v_light = 300000000
+
+# Definimos la ecuación para la energía:
+energy = m * (v_light ** 2)
+
+
+# Resultado:
+print(energy)
+```
+Sol:  
+m: *50*  
+E: 4500000000000000000  
