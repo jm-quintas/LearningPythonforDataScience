@@ -92,3 +92,20 @@ main()
 Sol:  
 *hello :)*  
 *hello* 😀  
+
+Código alternativo:  
+```python
+def main():
+    texto = input()
+    textofinal = convert(texto)
+    print(textofinal)
+
+def convert(texto):
+   carita = texto.replace(":)" , "🙂").replace(":(" , "🙁")
+   return carita
+
+main()
+```
+Sol:  
+*hello :(*  
+*hello* 🙁  
