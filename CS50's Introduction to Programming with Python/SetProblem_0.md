@@ -62,3 +62,33 @@ Sol:
 Introduce un mensaje: *This is CS50*  
 *This...is...CS50*  
 
+## Problema 3: Haciendo caras.
+Implemente una función llamada ***convert*** que acepte a **str** como entrada y devuelva esa misma entrada con cualquier :) convertido a 🙂 (también conocido como una cara ligeramente sonriente) y cualquier :( convertido a 🙁 (también conocido como una cara ligeramente triste). El resto del texto debe devolverse sin cambios.
+
+Luego, en ese mismo archivo, implemente una función llamada ***main*** que solicita al usuario una entrada, llama ***convert*** a esa entrada e imprime el resultado.
+
+```python
+# Función principal:
+def main():
+    # Creamos una variable con el mensaje de entrada.
+    mensaje_usuario = input()
+    # Creamos una variable con el valor obtenido de la función de conversión.
+    resultado = convert(mensaje_usuario)
+    # Salida.
+    print(resultado)
+
+# Función de conversión que depende de la variable mensaje_usuario.
+def convert(mensaje_usuario):
+    # Transformación para la carita feliz:
+    caritafeliz = mensaje_usuario.replace(":)", "😀")
+    # Transformación para la carita triste:
+    caritatriste = caritafeliz.replace(":(", "☹️")
+    # Salida del valor de la función:
+    return caritatriste
+
+# Llamada de la función.
+main()
+```
+Sol:  
+*hello :)*  
+*hello* 😀  
