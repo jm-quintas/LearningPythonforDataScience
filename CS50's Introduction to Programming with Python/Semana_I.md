@@ -148,7 +148,16 @@ Sol:
 3  
 3  
 
-En este caso las tres variables utilizadas en el «lado izquierdo» tomarán el valor 3.
+En este caso las tres variables utilizadas en el «lado izquierdo» tomarán el valor 3. Las asignaciones que hemos hecho hasta ahora han sido de un *valor literal* a una variable. Pero nada impide que podamos hacer asignaciones de una variable a otra variable:
+
+```python
+personas = 157432
+total_personas = personas
+print(total_personas)
+```
+Sol: 157432  
+
+La variable que utilicemos como valor de asignación debe existir previamente, ya que si no es así, obtendremos un error informando de que no está definida.
 
 ### Reglas para nombrar variables.
 En Python existen una serie de reglas para los nombres de variables:
