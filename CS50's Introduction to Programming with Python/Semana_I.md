@@ -76,7 +76,7 @@ print("Hola, mundo")
 ```
 Sol: Hola, mundo  
 
-La función ***print()*** también tiene algunos parámetros opcionales que se pueden utilizar para personalizar la salida. Escrita en su forma general por defecto:
+La función ***print()*** también tiene algunos parámetros opcionales que se pueden utilizar para personalizar la salida. Escrita en su forma general:
 
 ```python
 print(*objects, sep=' ', end='\n', file=None, flush=False)
