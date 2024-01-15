@@ -115,19 +115,28 @@ Hola|mundo
 Hola_mundo  
 Hola/mundo  
 
+Trabajemos ahora un poco con el parámetro ***end*** dentro de la función print() con los siguientes ejemplos:
 ```python
-# Se utiliza el parámetro end con el argumento "." para indicar que el mensaje terminará con un punto.
-print("Hola, mundo", end=".")
+print("Hola", "mundo", end=".")
 ```
-Sol: Hola, mundo.  
-
-Para evitar el salto de línea podemos utilizar uno de los parámetros de la función ***print()***.
+Sol: Hola mundo.  
 
 ```python
-print("Hola, ", end = "")      #Se utilizó el parametro end sin "\n" para evitar el salto de línea.
-print("mundo")
+print("Hola", "mundo", end="...")
 ```
-Sol: Hola, mundo 
+Sol: Hola mundo...  
+
+```python
+print("Hola", "mundo", end="!")
+```
+Sol: Hola mundo!  
+
+```python
+print("Hola", "mundo", end="|")
+```
+Sol: Hola mundo|  
+
+Al no utilizar como argumento ***\n*** dentro del parámetro ***end*** se elimina el salto de línea al ejecutar la función ***print()***. 
 
 ### **Función input()**.
 Se utiliza para solicitar al usuario que *introduzca datos por teclado*. La función ***input()** devuelve una cadena de texto*. Su sintaxis es la siguiente:
