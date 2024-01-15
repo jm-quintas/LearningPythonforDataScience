@@ -151,6 +151,6 @@ def percent_to_float(p):
 main()
 ```
 Sol:  
-How much was the meal? $50  
-What percentage would you like to tip? 15%  
+How much was the meal? *$50*  
+What percentage would you like to tip? *15%*  
 Leave $7.50  
