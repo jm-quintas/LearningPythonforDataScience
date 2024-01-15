@@ -164,7 +164,7 @@ Características principales de las variables en Python:
 
 * **No es necesario declararlas**: a diferencia de otros lenguajes, *en Python no se necesita declarar el tipo de dato de una variable* antes de usarla. El tipo se asigna automáticamente cuando se le asigna un valor por primera vez.
   
-* **Tipado dinámico**: Python *es un lenguaje de tipado dinámico*, lo que significa que el tipo de dato de una variable puede cambiar a lo largo del programa.
+* **Tipado dinámico**: significa que el *tipo de dato de una variable puede cambiar* a lo largo del programa.
   
 * **Nombres significativos**: es recomendable *utilizar nombres descriptivos para las variables*, que indiquen claramente qué tipo de información almacenan.
   
