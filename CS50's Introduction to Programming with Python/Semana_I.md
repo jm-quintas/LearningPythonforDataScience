@@ -76,7 +76,7 @@ print("Hola, mundo")
 ```
 Sol: Hola, mundo  
 
-También, podemos imprimir por pantalla un mensaje que contenga más de un objeto, en este caso, cadenas de texto separados por comas ,.
+También, podemos imprimir por pantalla un mensaje que contenga más de un objeto, en este caso, cadenas de texto separados por comas **,** .
 
 ```python
 print("Hola", "mundo")    # La coma , me genera un espacio entre las cadenas de texto.
