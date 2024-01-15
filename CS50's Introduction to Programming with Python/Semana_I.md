@@ -89,7 +89,11 @@ La función ***print()*** también tiene algunos parámetros opcionales que se p
 print(*objects, sep=' ', end='\n', file=None, flush=False)
 ```
 
-Imprime *objects* (el objeto que se desea imprimir. Puede ser una cadena de texto, un número, una lista, una tupla, un diccionario, etc.) al flujo de texto *file*, separándolos por *sep* (se utiliza para especificar el separador entre los elementos que se imprimen. El valor predeterminado de *sep* es un espacio en blanco) y seguidos por *end* (especificar el carácter que se utilizará al final de la salida).  
+1. ***objects***: el objeto que se desea imprimir. Puede ser una cadena de texto, un número, una lista, una tupla, un diccionario, etc.
+
+2. ***sep***: se utiliza para especificar el separador entre los elementos que se imprimen. El valor predeterminado de *sep* es un espacio en blanco.
+
+3. ***end***: especificar el carácter que se utilizará al final de la salida.  
 
 ```python
 # Se utiliza el parámetro end con el argumento "." para indicar que el mensaje terminará con un punto.
