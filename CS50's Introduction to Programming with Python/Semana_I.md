@@ -66,10 +66,10 @@ nombre_funcion_python("argumento")
 Es una función incorporada que *se utiliza para mostrar mensajes en la pantalla*. Es muy útil cuando se desea mostrar el resultado de una operación o simplemente para imprimir un mensaje para el usuario. La sintaxis básica de la función ***print()*** es la siguiente:  
 
 ```python
-print(argumentos)
+print(objeto)
 ```
 
-Los argumentos pueden ser de cualquier tipo, incluyendo cadenas, números, listas, diccionarios, etc. Por ejemplo, el siguiente código imprime la cadena *Hola, mundo* en la pantalla: 
+Los objetos pueden ser de cualquier tipo, incluyendo cadenas, números, listas, diccionarios, etc. Por ejemplo, el siguiente código imprime la cadena *Hola, mundo* en la pantalla: 
 
 ```python
 print("Hola, mundo")
