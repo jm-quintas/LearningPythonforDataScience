@@ -136,7 +136,7 @@ print("Hola", "mundo", end="|")
 ```
 Sol: Hola mundo|  
 
-Al no utilizar como argumento ***\n*** dentro del parámetro ***end*** se elimina el salto de línea al ejecutar la función ***print()***. 
+Al no utilizar como argumento ***\n*** dentro del parámetro ***end*** se elimina el salto de línea (que se encuentra por defecto) al ejecutar la función ***print()***.  
 
 ### **Función input()**.
 Se utiliza para solicitar al usuario que *introduzca datos por teclado*. La función ***input()** devuelve una cadena de texto*. Su sintaxis es la siguiente:
