@@ -395,6 +395,7 @@ En Python, las operaciones aritméticas **se realizan de izquierda a derecha**, 
 | *, /, //, % | 2 |
 | +, - | 3 |
 
+Si los operadores siguen unas ***reglas de precedencia*** que determinan su orden de aplicación, que hacer cuando deseamos un orden de aplicación distinto? ***usar paréntesis***, como hacemos en la notación matemática convencional.
 
 ```python
 # Definimos dos variables.
