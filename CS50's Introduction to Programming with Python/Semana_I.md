@@ -69,7 +69,7 @@ Es una función incorporada que *se utiliza para mostrar mensajes en la pantalla
 print(argumentos)
 ```
 
-Los argumentos pueden ser de cualquier tipo, incluyendo cadenas, números, listas, diccionarios, etc. Por ejemplo, el siguiente código imprime en la cadena *Hola, mundo* en la pantalla: 
+Los argumentos pueden ser de cualquier tipo, incluyendo cadenas, números, listas, diccionarios, etc. Por ejemplo, el siguiente código imprime la cadena *Hola, mundo* en la pantalla: 
 
 ```python
 print("Hola, mundo")
