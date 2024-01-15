@@ -90,7 +90,7 @@ print("Hola, mundo", end=".")
 ```
 Sol: Hola, mundo.  
 
-Para evitar el salto de línea podemos utilizar uno de los parámetros de la función print().
+Para evitar el salto de línea podemos utilizar uno de los parámetros de la función ***print()***.
 
 ```python
 print("Hola, ", end = "")      #Se utilizó el parametro end sin "\n" para evitar el salto de línea.
