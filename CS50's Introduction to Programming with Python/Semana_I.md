@@ -184,7 +184,7 @@ print(tres)
 print(three)
 print(drei)
 ```
-Sol:
+Sol:  
 3  
 3  
 3  
