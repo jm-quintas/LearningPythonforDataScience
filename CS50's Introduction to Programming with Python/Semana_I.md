@@ -539,7 +539,7 @@ y = float(input("Introduce un valor para 'y': "))
 
 z = x / y
 
-print(f"{z:.2f}")   # z: .2f indica que del resultado para z, mostrará 2 decimales.
+print(f"{z:.2f}")   # z:.2f indica que del resultado para z, mostrará 2 decimales.
 ```
 Sol: 0.67  
 
