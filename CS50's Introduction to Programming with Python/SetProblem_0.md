@@ -130,4 +130,23 @@ Sol:
 m: *50*  
 E: 4500000000000000000  
 
+## Problema 5: Calculadora de propinas.
 
+```python
+def main():
+    dollars = dollars_to_float(input("How much was the meal? "))
+    percent = percent_to_float(input("What percentage would you like to tip? "))
+    tip = dollars * percent
+    print(f"Leave ${tip:.2f}")
+
+def dollars_to_float(d):
+    eliminar_signoDollar = d.strip("$")
+    return float(eliminar_signoDollar)
+
+
+def percent_to_float(p):
+    eliminar_sigoPercent = p.strip("%")
+    return float(eliminar_sigoPercent)/100
+
+main()
+```
