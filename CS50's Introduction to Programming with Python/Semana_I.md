@@ -236,7 +236,7 @@ También, podemos documentarnos sobre los parámetros y argumentos que se pueden
 nombre = input("Cual es tu nombre: ")
 
 # Utilizar un parámetro.
-# .capitalize(), colocará la primera letra de la cadena de texto (string) introducido por el usuario en mayúscula, independientemente como lo edite.
+# .capitalize(), retorna una copia de la cadena con el primer carácter en mayúsculas y el resto en minúsculas.
 nombre = nombre.capitalize()
 
 # Imprimir en la consola un saludo con el nombre del usuario.
@@ -253,7 +253,7 @@ También, podemos combinar parámetros:
 nombre = input("Cual es tu nombre: ")
 
 # .strip(), elimina cualquier espacio provocado por el usuario al editar la entrada de texto.
-# .capitalize(), colocará la primera letra del string introducida por el usuario en mayúscula, independientemente como lo edite.
+# .capitalize(), retorna una copia de la cadena con el primer carácter en mayúsculas y el resto en minúsculas.
 nombre = nombre.strip().capitalize()
 
 # Imprimir en la consola un saludo con el nombre del usuario.
@@ -261,6 +261,20 @@ print("Hola,", nombre)
 ```
 Sol: Cual es tu nombre: (espacio en blanco) *niclau*     
 Hola, *Niclau*  
+
+```python
+# Definimos una variable que contiene la información obtenida por parte del usuario.
+nombre = input("Introduce tu nombre en letra mayúscula: ")
+
+# .lower(), retorna una copia de la cadena de caracteres con todas las letras en minúsculas.
+nombre_formateado = nombre.lower()
+
+# Salida.
+print(nombre_formateado)
+```
+Sol:
+Introduce tu nombre en letra mayúscula: *MATIAS*  
+matias  
 
 ### Como regla general.
 
