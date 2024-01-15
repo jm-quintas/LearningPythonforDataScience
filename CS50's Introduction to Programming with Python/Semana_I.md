@@ -95,6 +95,26 @@ print(*objects, sep=' ', end='\n', file=None, flush=False)
 
 3. ***end***: especificar el carácter que se utilizará al final de la salida.  
 
+Trabajemos un poco con el parámetro ***sep*** dentro de la función print() con los siguientes ejemplos:
+
+```python
+print("Hola", "mundo", sep="...")
+
+print("Hola", "mundo", sep="-")
+
+print("Hola", "mundo", sep="|")
+
+print("Hola", "mundo", sep="_")
+
+print("Hola", "mundo", sep="/")
+```
+Sol:  
+Hola...mundo  
+Hola-mundo  
+Hola|mundo  
+Hola_mundo  
+Hola/mundo  
+
 ```python
 # Se utiliza el parámetro end con el argumento "." para indicar que el mensaje terminará con un punto.
 print("Hola, mundo", end=".")
