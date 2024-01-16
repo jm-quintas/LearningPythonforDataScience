@@ -285,6 +285,14 @@ print(texto_trnsf)
 ```
 Sol: www.sitio_web.com  
 
+También, podemos utilizar estas funciones que trabajan con cadenas de textos dentro de la función ***print()***.
+
+```python
+# .upper(), convierte un string en mayúsculas.
+print("Hola NicLau".upper())
+```
+Sol: HOLA NICLAU  
+
 ### Como regla general.
 
 * Usar ***nombres*** para variables (ejemplo article).  
