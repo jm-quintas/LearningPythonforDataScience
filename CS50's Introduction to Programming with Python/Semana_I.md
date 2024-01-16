@@ -276,6 +276,15 @@ Sol:
 Introduce tu nombre en letra mayúscula: *MATIAS*  
 matias  
 
+```python
+# Eliminar caracteres.
+texto = 'www.nasa.comzx'
+# .strip(), retorna una copia de la cadena con los caracteres indicados eliminados.
+texto_trnsf = texto.strip('zx')
+print(texto_trnsf)
+```
+Sol: www.nasa.com  
+
 ### Como regla general.
 
 * Usar ***nombres*** para variables (ejemplo article).  
