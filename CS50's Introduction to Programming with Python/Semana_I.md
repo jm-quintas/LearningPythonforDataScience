@@ -293,6 +293,11 @@ print("Hola NicLau".upper())
 ```
 Sol: HOLA NICLAU  
 
+```python
+print("Hola NicLau".replace(" ", "_"))
+```
+Sol: Hola_NicLau  
+
 ### Como regla general.
 
 * Usar ***nombres*** para variables (ejemplo article).  
