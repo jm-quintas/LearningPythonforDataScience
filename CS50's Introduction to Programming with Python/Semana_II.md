@@ -99,6 +99,7 @@ Introduce un valor para y: *2*
 x es menor que y  
 
 ```python
+# Comprobar si un valor es mayor, menor o igual a otro.
 x = int(input("Introduce un valor para x: "))
 y = int(input("Introduce un valor para y: "))
 
@@ -118,6 +119,7 @@ Introduce un valor para y: *2*
 x es igual a y  
 
 ```python
+# Comprobar si los valores numéricos ingresados son iguales o distintos.
 x = int(input("Introduce un valor para x: "))
 y = int(input("Introduce un valor para y: "))
 
@@ -133,6 +135,7 @@ Introduce un valor para y: *5*
 x no es igual a y  
 
 ```python
+# Comprobar si los valores numéricos ingresados son iguales o distintos.
 x = int(input("Introduce un valor para x: "))
 y = int(input("Introduce un valor para y: "))
 
@@ -148,6 +151,7 @@ Introduce un valor para y: *5*
 x es igual a y  
 
 ```python
+# Comprobar si los valores numéricos ingresados son iguales o distintos.
 x = int(input("Introduce un valor para x: "))
 y = int(input("Introduce un valor para y: "))
 
@@ -184,6 +188,7 @@ Introduce una nota: 95
 nota: A  
 
 ```python
+# Conversión de notas académicas.
 nota = int(input("Introduce una nota: "))
 
 if nota >= 90:
