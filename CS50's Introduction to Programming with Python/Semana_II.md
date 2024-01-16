@@ -46,3 +46,13 @@ En Python, los operadores condicionales se usan para evaluar condiciones. Las co
 | > | Mayor que |
 | <= | Menor o igual que |
 | >= | Mayor o igual que |
+
+## Operadores lógicos.
+Los operadores lógicos se usan para combinar condiciones. Los operadores lógicos básicos en Python son los siguientes:
+
+| Operador | Descripción |
+| :------: | :------: |
+| and | Y |
+| or | O |
+| not | No |
+
