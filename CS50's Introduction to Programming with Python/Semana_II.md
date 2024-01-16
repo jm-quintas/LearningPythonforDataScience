@@ -282,3 +282,19 @@ match name:
 ```
 Introduce tu nmbre: *Harry*  
 Griffindor  
+
+```python
+# Personajes de Harry Potter.
+ name = input ("Introduce tu nmbre: ")
+
+match name:
+ case "Harry"| "Hermione" | "Ron":
+   print("Griffindor")
+ case "Draco":
+   print("Slytherin")
+ case _:
+   print("Who?")
+```
+Sol:  
+Introduce tu nmbre: *Hermione*  
+Griffindor 
