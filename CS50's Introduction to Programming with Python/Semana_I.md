@@ -278,12 +278,12 @@ matias
 
 ```python
 # Eliminar caracteres.
-texto = 'www.nasa.comzx'
+texto = 'www.sitio_web.comzx'
 # .strip(), retorna una copia de la cadena con los caracteres indicados eliminados.
 texto_trnsf = texto.strip('zx')
 print(texto_trnsf)
 ```
-Sol: www.nasa.com  
+Sol: www.sitio_web.com  
 
 ### Como regla general.
 
