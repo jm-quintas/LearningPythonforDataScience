@@ -205,3 +205,17 @@ else:
 Sol:  
 Introduce una nota: 85  
 nota: B  
+
+```python
+#Comprobar si un número es par o impar:
+valor = int(input("Introduce un número: "))
+
+if valor % 2 == 0:
+    print("es par!")
+
+else:
+    print("es impar!")
+```
+Sol:  
+Introduce un número: *2*  
+es par!  
