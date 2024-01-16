@@ -56,3 +56,24 @@ Los operadores lógicos se usan para combinar condiciones. Los operadores lógic
 | or | O |
 | not | No |
 
+### Aplicando los conceptos de condicionales.
+```python
+# Comprobar si un valor es mayor, menor o igual a otro.
+# Valores por parte del usuario almacenados en sus respectivas variables.
+x = int(input("Introduce un valor para x: "))
+y = int(input("Introduce un valor para y: "))
+
+# Aplicando la condicional if:
+if x < y:
+    print("x es menor que y")
+
+if x > y:
+    print("x es mayor que y")
+
+if x == y:
+    print("x es igual a y")
+```
+Sol:  
+Introduce un valor para x: *1*  
+Introduce un valor para y: *2*  
+x es menor que y  
