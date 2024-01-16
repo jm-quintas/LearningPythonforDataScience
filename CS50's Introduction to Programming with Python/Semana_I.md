@@ -294,9 +294,12 @@ print("Hola NicLau".upper())
 Sol: HOLA NICLAU  
 
 ```python
+# .replace(), retorna una copia de la cadena con todas las ocurrencias de la cadena antiguas sustituidas por nuevas.
 print("Hola NicLau".replace(" ", "_"))
 ```
 Sol: Hola_NicLau  
+
+Existen muchos más métodos que estudiar en la documentación de Python por revisar.
 
 ### Como regla general.
 
