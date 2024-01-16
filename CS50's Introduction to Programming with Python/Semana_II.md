@@ -97,3 +97,22 @@ elif x == y:
 Introduce un valor para x: *1*  
 Introduce un valor para y: *2*  
 x es menor que y  
+
+```python
+x = int(input("Introduce un valor para x: "))
+y = int(input("Introduce un valor para y: "))
+
+# Aplicando las condiciones if, elif, else:
+if x < y:
+    print("x es menor que y")
+
+elif x > y:
+    print("x es mayor que y")
+
+else:
+    print("x es igual a y")
+```
+Sol:  
+Introduce un valor para x: 2  
+Introduce un valor para y: 2  
+x es igual a y  
