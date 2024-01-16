@@ -219,3 +219,25 @@ else:
 Sol:  
 Introduce un número: *2*  
 es par!  
+
+```python
+# Definimos nuestra función: comprobar si un número es par o impar.
+def main():
+    x = int(input ("Introduce un número: "))
+    if es_par(x):
+        print("es par!")
+    else:
+        print("es impar!")
+
+# Creamos una función que realizará el cálculo matemático.
+def es_par(n):
+    if n % 2 == 0:
+        return True
+    else:
+        return False
+
+# Llamamos a la función.
+main()
+```
+Introduce un número: *6*  
+es par!  
