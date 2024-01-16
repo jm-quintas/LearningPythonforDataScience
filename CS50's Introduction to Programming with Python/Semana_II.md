@@ -160,3 +160,25 @@ Sol:
 Introduce un valor para x: *7*  
 Introduce un valor para y: *7*  
 x es igual a y  
+
+```python
+# Conversión de notas académicas.
+nota = int(input("Introduce una nota: "))
+
+if nota >= 90 and nota <= 100:
+    print("nota: A")
+
+elif nota >=80 and nota < 90:
+    print("nota: B")
+
+elif nota >= 70 and nota < 80:
+    print("nota: C")
+
+elif nota >= 60 and nota < 70:
+    print("nota: D")
+
+else:
+    print("nota: F")
+```
+Introduce una nota: 95  
+nota: A  
