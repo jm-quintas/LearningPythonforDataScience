@@ -182,3 +182,21 @@ else:
 ```
 Introduce una nota: 95  
 nota: A  
+
+```python
+nota = int(input("Introduce una nota: "))
+
+if nota >= 90:
+    print("nota: A")
+elif nota >= 80:
+    print("nota: B")
+elif nota >= 70:
+    print("nota: C")
+elif nota >= 60:
+    print("nota: D")
+else:
+    print("nota: F")
+```
+Sol:  
+Introduce una nota: 85  
+nota: B  
