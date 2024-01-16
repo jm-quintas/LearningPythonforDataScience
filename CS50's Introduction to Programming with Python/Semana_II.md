@@ -241,3 +241,20 @@ main()
 ```
 Introduce un número: *6*  
 es par!  
+
+```python
+# Definimos nuestra función: comprobar si un número es par o impar.
+def main():
+    x = int(input ("Introduce un número: "))
+    if es_par(x):
+        print("es par!")
+    else:
+        print("es impar!")
+
+def es_par(n):
+    return True if n % 2 == 0 else False
+main()
+```
+Sol:  
+Introduce un número: *8*  
+es par!  
