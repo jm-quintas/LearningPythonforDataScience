@@ -1,5 +1,6 @@
 # Condicionales en Python.
 
+## Condicionales.
 En Python, las sentencias condicionales *se usan para controlar el flujo del programa*. Permiten ejecutar código solo si se cumple una condición determinada.  
 
 Hay tres tipos básicos de sentencias condicionales en Python:  
@@ -34,4 +35,14 @@ else:
 ```
 Si la condición 1 es verdadera, se ejecutará el bloque de código 1. Si la condición 1 es falsa y la condición 2 es verdadera, se ejecutará el bloque de código 2. Si las condiciones 1 y 2 son falsas, se ejecutará el bloque de código 3.
 
+## Operadores condicionales.
+En Python, los operadores condicionales se usan para evaluar condiciones. Las condiciones son expresiones que pueden evaluarse como verdaderas o falsas. Los operadores condicionales básicos en Python son los siguientes:
 
+| Operador | Descripción |
+| :------: | :------: |
+| == | Igualdad |
+| != | Desigualdad |
+| < | Menor que |
+| > | Mayor que |
+| <= | Menor o igual que |
+| >= | Mayor o igual que |
