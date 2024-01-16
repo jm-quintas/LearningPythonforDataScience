@@ -123,6 +123,7 @@ y = int(input("Introduce un valor para y: "))
 
 if x < y or x > y:
     print("x no es igual a y")
+
 else:
     print("x es igual a y")
 ```
@@ -130,3 +131,18 @@ Sol:
 Introduce un valor para x: *3*  
 Introduce un valor para y: *5*  
 x no es igual a y  
+
+```python
+x = int(input("Introduce un valor para x: "))
+y = int(input("Introduce un valor para y: "))
+
+if x != y:
+    print("x no es igual a y")
+
+else:
+    print("x es igual a y")
+```
+Sol:  
+Introduce un valor para x: *5*  
+Introduce un valor para y: *5*  
+x es igual a y  
