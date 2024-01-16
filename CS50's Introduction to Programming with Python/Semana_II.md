@@ -285,7 +285,7 @@ Griffindor
 
 ```python
 # Personajes de Harry Potter.
- name = input ("Introduce tu nmbre: ")
+name = input ("Introduce tu nmbre: ")
 
 match name:
  case "Harry"| "Hermione" | "Ron":
