@@ -252,7 +252,7 @@ También, podemos combinar parámetros:
 # Preguntar al usuario su nombre, guardar la información en una variable.
 nombre = input("Cual es tu nombre: ")
 
-# .strip(), elimina cualquier espacio provocado por el usuario al editar la entrada de texto.
+# .strip(), retorna una copia de la cadena con los caracteres indicados eliminados.
 # .capitalize(), retorna una copia de la cadena con el primer carácter en mayúsculas y el resto en minúsculas.
 nombre = nombre.strip().capitalize()
 
