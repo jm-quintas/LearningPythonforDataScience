@@ -4,7 +4,12 @@ En Python, las sentencias condicionales *se usan para controlar el flujo del pro
 
 Hay tres tipos básicos de sentencias condicionales en Python:  
 
-* ***Sentencia if***: se usa para ejecutar código si una condición es verdadera.
+* ***Sentencia if***: se usa para ejecutar código si una condición es verdadera. La sentencia ***if*** tiene la siguiente sintaxis:
+
+```python
+ if condición:
+    bloque de código
+```
   
 * ***Sentencia if-else***: se usa para ejecutar código si una condición es verdadera o código diferente si la condición es falsa.
   
