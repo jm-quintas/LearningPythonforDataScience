@@ -258,3 +258,27 @@ main()
 Sol:  
 Introduce un número: *8*  
 es par!  
+
+
+La función ***match()*** en Python se utiliza para *realizar una coincidencia entre una expresión y un objeto*. La expresión puede ser una cadena de caracteres, un número, una expresión regular o una función.  
+
+La función ***match()*** devuelve un objeto Match si la coincidencia es exitosa. El objeto Match contiene información sobre la coincidencia, como la posición de la coincidencia y el valor del objeto coincidente.  
+
+```python
+# Personajes de Harry Potter.
+ name = input ("Introduce tu nmbre: ")
+
+match name:
+ case "Harry":
+   print("Griffindor")
+ case "Hermione":
+   print("Griffindor")
+ case "Ron":
+   print("Griffindor")
+ case "Draco":
+   print("Slytherin")
+ case _:
+   print("Who?")
+```
+Introduce tu nmbre: *Harry*  
+Griffindor  
