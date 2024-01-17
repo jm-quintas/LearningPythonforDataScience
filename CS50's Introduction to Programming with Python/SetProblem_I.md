@@ -161,14 +161,14 @@ else:
     print(nueva_x / nueva_z)
 ```
 Sol:  
-Expression: 1 + 1  
+Expression: *1 + 1*  
 2.0  
 
-Expression: 2 - 3  
+Expression: *2 - 3*  
 -1.0  
 
-Expression: 2 * 2  
+Expression: *2 * 2*  
 4.0  
 
-Expression: 50 / 5  
+Expression: *50 / 5*  
 10.0  
