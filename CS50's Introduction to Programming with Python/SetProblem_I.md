@@ -124,3 +124,51 @@ else:
 Sol:  
 Nombre del archivo: cat.gif  
 image/gif  
+
+
+## Prolema 4: Intérprete de matemáticas.
+```python
+"""
+
+Implemente un programa que solicite al usuario una expresión aritmética 
+y luego calcule y genere el resultado como un valor de punto flotante formateado
+con un decimal. Supongamos que la entrada del usuario tendrá el formato x y z, 
+con un espacio entre xy y un espacio entre yz, donde:
+
+x es un número entero
+y es +, -, *, o/
+z es un número entero
+
+"""
+# Entrada de datos:
+expresion = input("Expression: ")
+
+# Asignación del valores transformados:
+x, y, z = expresion.split(" ")
+
+# Cambiamos el tipo de datos y la asignamos a una nueva variable:
+nueva_x = float(x)
+nueva_z = float(z)
+
+# Condicionales y calculamos el resultado:
+if y == "+":
+    print(nueva_x + nueva_z)
+elif y == "-":
+    print(nueva_x - nueva_z)
+elif y == "*":
+    print(nueva_x * nueva_z)
+else:
+    print(nueva_x / nueva_z)
+```
+Sol:  
+Expression: 1 + 1  
+2.0  
+
+Expression: 2 - 3  
+-1.0  
+
+Expression: 2 * 2  
+4.0  
+
+Expression: 50 / 5  
+10.0  
