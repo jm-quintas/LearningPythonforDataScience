@@ -9,7 +9,7 @@ y minúsculas) 'forty-twoo' 'forty two'. De lo contrario, salida 'No'.
 
 respuesta = input("What is the Answer to the Great Question of Life, the Universe, and Everything?:" )
 
-respuesta_transf = respuesta.lower()
+respuesta_transf = respuesta.lower().strip()
 
 if respuesta_transf == "42":
     print("Yes")
@@ -27,7 +27,7 @@ Yes
 ```python
 respuesta = input("What is the Answer to the Great Question of Life, the Universe, and Everything?:" )
 
-respuesta_transf = respuesta.lower()
+respuesta_transf = respuesta.lower().strip()
 
 if respuesta_transf == "42" or respuesta_transf == "forty-two" or respuesta_transf == "forty two":
     print("Yes")
