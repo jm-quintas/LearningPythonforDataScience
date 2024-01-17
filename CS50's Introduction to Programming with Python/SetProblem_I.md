@@ -23,3 +23,18 @@ else:
 Sol:  
 What is the Answer to the Great Question of Life, the Universe, and Everything?: *42*  
 Yes  
+
+```python
+respuesta = input("What is the Answer to the Great Question of Life, the Universe, and Everything?:" )
+
+respuesta_transf = respuesta.lower()
+
+if respuesta_transf == "42" or respuesta_transf == "forty-two" or respuesta_transf == "forty two":
+    print("Yes")
+
+else:
+    print("No")
+```
+Sol:  
+What is the Answer to the Great Question of Life, the Universe, and Everything?: *forty-two*  
+Yes  
