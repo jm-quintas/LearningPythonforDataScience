@@ -172,3 +172,42 @@ Expression: *2 * 2*
 
 Expression: *50 / 5*  
 10.0  
+
+## Problema 5: Hora de comer.
+```python
+"""
+
+Implemente un programa que solicite al usuario una hora y genere si es breakfast time,
+lunch timeo dinner time. Si no es hora de comer, no saques nada. Supongamos que la 
+entrada del usuario se formateará en formato de 24 horas como #:##o ##:##. Y suponga
+que el rango de tiempo de cada comida es inclusivo. Por ejemplo, ya sean las 7:00, 
+7:01, 7:59 u 8:00, o en cualquier momento intermedio, es hora de desayunar.
+
+"""
+def main():
+
+    respuesta = input("Que hora es?: ")
+
+    tiempo = convertir(respuesta)
+
+    if tiempo >= 7 and tiempo <= 8:
+        print("tiempo de desayuno")
+
+    if tiempo >= 12 and tiempo <= 13:
+        print("tiempo de almuerzo")
+
+    if tiempo >= 18 and tiempo <= 19:
+        print("tiempo de cena")
+
+
+def convertir(tiempo):
+    horas, minutos = tiempo.split(":")
+    nuevo_minutos = float(minutos) / 60
+    return float(horas) + nuevo_minutos
+
+if __name__== "__main__":
+    main()
+```
+Sol:  
+Que hora es?: *12:30*  
+tiempo de almuerzo  
