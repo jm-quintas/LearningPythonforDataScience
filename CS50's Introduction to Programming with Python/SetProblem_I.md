@@ -84,3 +84,42 @@ elif saludo_transf:
 Sol:  
 Saludo: *NicLau*  
 100$  
+
+```python
+"""
+
+Implemente un programa que solicite al usuario el nombre de un archivo y luego genere 
+el tipo de medio de ese archivo si el nombre del archivo termina, sin distinguir entre
+mayúsculas y minúsculas, en cualquiera de estos sufijos:
+
+* .gif
+* .jpg
+* .jpeg
+* .png
+* .pdf
+* .txt
+* .zip
+
+"""
+
+nombre_archivo = input("Nombre del archivo: ")
+
+nombre_archivo_transf = nombre_archivo.lower().strip()
+
+# Condicional:
+if nombre_archivo_transf.endswith("gif"):
+    print("image/gif")
+elif nombre_archivo_transf.endswith("jpg"):
+    print("image/jpeg")
+elif nombre_archivo_transf.endswith("jpeg"):
+    print("image/jpeg")
+elif nombre_archivo_transf.endswith("png"):
+    print("image/png")
+elif nombre_archivo_transf.endswith("pdf"):
+    print("application/pdf")
+else:
+    print("application/octet-stream")
+```
+Sol:  
+Nombre del archivo: cat.gif  
+image/gif  
