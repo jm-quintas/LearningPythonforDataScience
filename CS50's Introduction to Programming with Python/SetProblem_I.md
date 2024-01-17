@@ -85,6 +85,7 @@ Sol:
 Saludo: *NicLau*  
 100$  
 
+## Problema 3: Extensiones de archivo.
 ```python
 """
 
