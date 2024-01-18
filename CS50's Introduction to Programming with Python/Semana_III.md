@@ -68,3 +68,11 @@ Se usa cuando se conoce de antemano el ***número de veces que se debe repetir e
 for elemento in colección:
     # Código que se repite
 ```
+### Listas.
+En Python, una lista es un ***tipo de dato secuencial*** que se utiliza para ***almacenar una colección de datos del mismo o de diferentes tipos***. Las listas son mutables, lo que significa que sus elementos se pueden modificar después de haber sido creadas. Su sintaxis es la siguiente:
+
+```python
+lista = [elemento 1, elemento 2, elemento 3, elemento n]
+```
+
+
