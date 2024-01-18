@@ -12,3 +12,18 @@ Es una estructura de control de flujo que ***se utiliza para repetir un bloque d
 while condición:
     # Código que se repite
 ```
+
+```python
+# Iniciamos la variable, y asignamos un valor.
+i = 3
+
+# Uso del bucle while.
+while i != 0:
+    print("meow")
+    # Actualización de la variable de iteración.
+    i = i - 1
+```
+Sol:  
+meow  
+meow  
+meow  
