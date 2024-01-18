@@ -16,12 +16,22 @@ while condición:
 ```python
 # Iniciamos la variable, y asignamos un valor.
 i = 3
-
 # Uso del bucle while.
 while i != 0:
     print("meow")
     # Actualización de la variable de iteración.
     i = i - 1
+```
+Sol:  
+meow  
+meow  
+meow  
+
+```python
+i = 0
+while i != 3:
+    print("meow")
+    i = i + 1
 ```
 Sol:  
 meow  
