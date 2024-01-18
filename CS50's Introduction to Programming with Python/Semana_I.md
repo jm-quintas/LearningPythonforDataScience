@@ -155,7 +155,7 @@ Cual es tu nombre:
 
 El usuario puede escribir su nombre en la pantalla y pulsar la tecla Enter. La función ***input()*** devolverá una cadena con el nombre del usuario. También se puede utilizar para obtener la entrada de números. Sin embargo, de forma predeterminada, la función ***input()*** convierte la entrada en un dato tipo ***string*** (cadena de texto), incluso si el usuario escribe un número. Es una herramienta muy útil para interactuar con el usuario. Se puede utilizar para obtener la entrada del usuario para cualquier propósito.  
 
-También, podemos convinar las funciones de entrada y salida de datos:
+También, podemos combinar las funciones de entrada y salida de datos:
 
 ```python
 print("Hola", input("Cual es tu nombre? "))
