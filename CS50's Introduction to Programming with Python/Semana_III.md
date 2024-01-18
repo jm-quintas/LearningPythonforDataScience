@@ -53,6 +53,7 @@ meow
 i = 0
 while i < 3:
     print("meow")
+    # i += 1
     i = i + 1
 ```
 Sol:  
