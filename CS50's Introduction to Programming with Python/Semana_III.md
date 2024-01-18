@@ -61,3 +61,10 @@ meow
 meow  
 meow  
 
+## Bucle for.
+Se usa cuando se conoce de antemano el ***número de veces que se debe repetir el código***. El código se repite para cada elemento de una colección. La sintaxis básica de un bucle ***for*** es la siguiente:
+
+```python
+for elemento in colección:
+    # Código que se repite
+```
