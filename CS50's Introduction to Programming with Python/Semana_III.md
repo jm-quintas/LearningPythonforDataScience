@@ -37,3 +37,14 @@ Sol:
 meow  
 meow  
 meow  
+
+```python
+i = 1
+while i <= 3:
+    print("meow")
+    i = i + 1
+```
+Sol:  
+meow  
+meow  
+meow  
