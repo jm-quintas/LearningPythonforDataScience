@@ -75,4 +75,13 @@ En Python, una lista es un ***tipo de dato secuencial*** que se utiliza para ***
 lista = [elemento 1, elemento 2, elemento 3, elemento n]
 ```
 
+```python
+"""
+Por cada elemento que la variable de iteración pase por la lista
+imprimirá un meow.
+"""
+for i in [0, 1, 2]:
+    print("meow")
+```
+
 
