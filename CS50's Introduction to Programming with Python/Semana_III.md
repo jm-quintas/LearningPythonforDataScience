@@ -191,3 +191,15 @@ Harry
 Hermione  
 Ron  
 
+Utilizando el bucle ***for*** en una lista:
+
+```python
+estudiantes = ["Harry", "Hermione", "Ron"]
+
+for estudiante in estudiantes:
+    print(estudiante)
+```
+Sol:  
+Harry  
+Hermione  
+Ron  
