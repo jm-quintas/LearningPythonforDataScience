@@ -203,3 +203,14 @@ Sol:
 Harry  
 Hermione  
 Ron  
+
+```python
+estudiantes = ["Harry", "Hermione", "Ron"]
+
+for i in range(len(estudiantes)):
+    print(estudiantes[i])
+```
+Sol:  
+Harry  
+Hermione  
+Ron  
