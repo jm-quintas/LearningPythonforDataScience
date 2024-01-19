@@ -205,8 +205,11 @@ Hermione
 Ron  
 
 ```python
+# Definimos una lista:
 estudiantes = ["Harry", "Hermione", "Ron"]
 
+# len(): devuelve la longitud de la lista.
+# Utilizamos el valor de la longitud de la lista como parámetro para la función range():
 for i in range(len(estudiantes)):
     print(estudiantes[i])
 ```
