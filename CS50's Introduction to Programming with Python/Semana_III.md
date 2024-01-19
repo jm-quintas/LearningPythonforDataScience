@@ -137,7 +137,7 @@ meow
 meow    
 meow 
 
-Trabajando con funciones creadas, condicionales y bucles:  
+Trabajando con funciones, condicionales y bucles:  
 
 ```python
 def main():
@@ -166,3 +166,9 @@ meow
 meow    
 meow  
 
+Trabajando con listas:  
+```python
+estudiantes = ["Harry", "Hermione", "Ron"]
+print(estudiantes)
+```
+Sol: ['Harry', 'Hermione', 'Ron']  
