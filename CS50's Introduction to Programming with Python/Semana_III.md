@@ -144,6 +144,7 @@ def main():
     number = get_number()
     meow(number)
 
+# Función que se encarga de obtener información de parte del usuario:
 def get_number():
     while True:
         n = int(input("Cual es el valor de n? "))
@@ -151,10 +152,12 @@ def get_number():
             break
     return n
 
+# Función que se encarga de imprimir el número de veces el mensaje:
 def meow(n):
     for i in range(n):
         print("meow")
 
+# Llamada de la función principal, salida:
 main()
 ```
 Sol:  
