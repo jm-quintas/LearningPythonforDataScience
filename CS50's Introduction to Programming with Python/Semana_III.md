@@ -282,3 +282,25 @@ Gryffindor
 Gryffindor  
 Gryffindor  
 Slytherin  
+
+Utilizamos el bucle for para recorrer un diccionario.  
+
+```python
+# Definimos el diccionario:
+estudiantes = {
+    "Hermione": "Gryffindor",
+    "Harry": "Gryffindor",
+    "Ron": "Gryffindor",
+    "Draco": "Slytherin",
+}
+
+for estudiante in estudiantes:
+    print(estudiante)
+```
+Sol:  
+Hermione  
+Harry  
+Ron  
+Draco  
+
+
