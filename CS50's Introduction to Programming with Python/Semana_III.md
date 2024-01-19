@@ -261,3 +261,24 @@ diccionario = {
     claveN = valorN
 }
 ```
+
+```python
+# Definimos el diccionario:
+estudiantes = {
+    "Hermione": "Gryffindor",
+    "Harry": "Gryffindor",
+    "Ron": "Gryffindor",
+    "Draco": "Slytherin",
+}
+
+# Salida de los valores de cada clave del diccionario:
+print(estudiantes["Hermione"])
+print(estudiantes["Harry"])
+print(estudiantes["Ron"])
+print(estudiantes["Draco"])
+```
+Sol:  
+Gryffindor  
+Gryffindor  
+Gryffindor  
+Slytherin  
