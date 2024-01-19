@@ -172,3 +172,22 @@ estudiantes = ["Harry", "Hermione", "Ron"]
 print(estudiantes)
 ```
 Sol: ['Harry', 'Hermione', 'Ron']  
+
+Los elementos de una lista se pueden acceder mediante índices. Los índices comienzan en 0, por lo que el primer elemento de una lista tiene un índice de 0, el segundo elemento tiene un índice de 1, y así sucesivamente.  
+
+Para acceder a un elemento de una lista, use el operador de corchete [].  
+
+```python
+# Creamos una lista:
+estudiantes = ["Harry", "Hermione", "Ron"]
+
+# Imprimir salidas según el índice de interés:
+print(estudiantes[0])
+print(estudiantes[1])
+print(estudiantes[1])
+```
+Sol:  
+Harry  
+Hermione  
+Ron  
+
