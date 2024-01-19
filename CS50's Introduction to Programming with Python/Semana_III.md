@@ -232,3 +232,18 @@ Sol:
 0 Harry  
 1 Hermione  
 2 Ron  
+
+```python
+# Definimos una lista:
+estudiantes = ["Harry", "Hermione", "Ron"]
+
+# len(): devuelve la longitud de la lista.
+# Utilizamos el valor de la longitud de la lista como parámetro para la función range():
+for i in range(len(estudiantes)):
+    # Imprimimos el número de indice, los elementos de la lista:
+    print(i + 1, estudiantes[i])
+```
+Sol:  
+1 Harry  
+2 Hermione  
+3 Ron  
