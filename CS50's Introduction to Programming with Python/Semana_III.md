@@ -106,4 +106,34 @@ meow
 meow    
 meow  
 
+```python
+while True:
+    n = int(input("Cual es el valor de n?"))
+    if n > 0:
+        break
+
+for i in range(n):
+    print("meow")
+```
+Sol: 
+meow   
+meow    
+meow  
+
+Trabajando con funciones creadas y bucles:  
+
+```python
+def main():
+    meow(3)
+
+def meow(n):
+    for i in range(n):
+        print("meow")
+
+main()
+```
+Sol: 
+meow   
+meow    
+meow 
 
