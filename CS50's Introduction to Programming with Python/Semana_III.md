@@ -218,7 +218,7 @@ Harry
 Hermione  
 Ron  
 
-```
+```python
 # Definimos una lista:
 estudiantes = ["Harry", "Hermione", "Ron"]
 
