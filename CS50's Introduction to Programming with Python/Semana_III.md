@@ -337,10 +337,11 @@ estudiantes = {
 # Obtenemos también el valor asociado a cada clave.
 # Utilizamos un separador.
 for estudiante in estudiantes:
-    print(estudiante, estudiantes[estudiante], sep = ",")
+    print(estudiante, estudiantes[estudiante], sep = ", ")
 ```
 Sol:  
-Hermione,Gryffindor  
-Harry,Gryffindor  
-Ron,Gryffindor  
-Draco,Slytherin  
+Hermione, Gryffindor  
+Harry, Gryffindor  
+Ron, Gryffindor  
+Draco, Slytherin  
+
