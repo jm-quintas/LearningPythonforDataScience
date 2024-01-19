@@ -345,3 +345,21 @@ Harry, Gryffindor
 Ron, Gryffindor  
 Draco, Slytherin  
 
+```python
+# Definimos una lista donde cada elementos son diccionario:
+estudiantes = [
+    {"name" : "Hermione", "house": "Gryffindor", "patronus" : "Otter"},
+    {"name" : "Harry", "house": "Gryffindor", "patronus" : "Stag"},
+    {"name" : "Ron", "house": "Gryffindor", "patronus" : "Jack Russell terrier"},
+    {"name" : "Draco", "house": "Slytherin", "patronus" : None}
+]
+
+# Iterando sobre cada elemento de la lista, lo cual, son diccionarios.
+for estudiante in estudiantes:
+    print(estudiante["name"], estudiante["house"], estudiante["patronus"], sep = ", ")
+```
+Sol:  
+Hermione, Gryffindor, Otter  
+Harry, Gryffindor, Stag  
+Ron, Gryffindor, Jack Russell terrier  
+Draco, Slytherin, None  
