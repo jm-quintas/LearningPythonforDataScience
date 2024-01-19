@@ -247,3 +247,17 @@ Sol:
 1 Harry  
 2 Hermione  
 3 Ron  
+
+### Diccionarios.
+
+Los diccionarios en Python ***son una estructura de datos que permite almacenar datos de forma asociativa***, es decir, relacionando un valor con una clave. Las claves deben ser únicas, pero los valores pueden ser de cualquier tipo, incluyendo otros diccionarios.  
+
+Para crear un diccionario en Python, se utilizan llaves {} para encerrar una serie de pares clave-valor.  
+
+```python
+diccionario = {
+    clave1 = valor1
+    clave2 = valor2
+    claveN = valorN
+}
+```
