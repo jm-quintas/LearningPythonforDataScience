@@ -294,6 +294,7 @@ estudiantes = {
     "Draco": "Slytherin",
 }
 
+# El bucle for itera sobre todas las claves:
 for estudiante in estudiantes:
     print(estudiante)
 ```
