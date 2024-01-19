@@ -84,4 +84,26 @@ for i in [0, 1, 2]:
     print("meow")
 ```
 
+### Rangos.
+La función ***range()*** en Python se utiliza para ***crear una secuencia de números***. La secuencia de números puede ser de cualquier longitud, y puede comenzar en cualquier número.
+
+La sintaxis básica de la función range() es la siguiente:  
+```python
+range(inicio, fin, [paso])
+```
+Los argumentos de la función range() son los siguientes:
+
+* **Inicio**: el primer número de la secuencia. El valor predeterminado es 0.
+* **Fin**: el último número de la secuencia. El número fin no se incluye en la secuencia.
+* **Paso**: el incremento entre los números de la secuencia. El valor predeterminado es 1.
+
+```python
+for i in range(3):
+    print("meow")
+```
+Sol:  
+meow   
+meow    
+meow  
+
 
