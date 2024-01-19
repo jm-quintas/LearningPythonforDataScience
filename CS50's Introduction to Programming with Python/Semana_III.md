@@ -132,7 +132,7 @@ def meow(n):
 
 main()
 ```
-Sol: 
+Sol:  
 meow   
 meow    
 meow 
