@@ -304,4 +304,22 @@ Harry
 Ron  
 Draco  
 
+```python
+# Definimos el diccionario:
+estudiantes = {
+    "Hermione": "Gryffindor",
+    "Harry": "Gryffindor",
+    "Ron": "Gryffindor",
+    "Draco": "Slytherin",
+}
 
+# El bucle for itera sobre todas las claves.
+# Obtenemos también el valor asociado a cada clave.
+for estudiante in estudiantes:
+    print(estudiante, estudiantes[estudiante])
+```
+Sol:  
+Hermione Gryffindor  
+Harry Gryffindor  
+Ron Gryffindor  
+Draco Slytherin  
