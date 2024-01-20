@@ -388,3 +388,23 @@ Sol:
 ###  
 ###  
 ###  
+
+```python
+def main():
+    imprimir_cuadrado(3)
+
+def imprimir_cuadrado(tamano):
+    #Para cada fila en el cuadro:
+    for i in range(tamano):
+        imprimir_fila(tamano)
+
+
+def imprimir_fila(ancho):
+    print("#" * ancho)
+    
+main()
+```
+Sol:  
+###  
+###  
+###  
