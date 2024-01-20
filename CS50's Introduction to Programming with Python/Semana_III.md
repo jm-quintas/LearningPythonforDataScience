@@ -365,6 +365,7 @@ Ron, Gryffindor, Jack Russell terrier
 Draco, Slytherin, None  
 
 Programa de bloques de ladrillo de Mario Bro.  
+Programa 1:
 ```python
 def main():
     imprimir_cuadrado(3)
@@ -389,6 +390,7 @@ Sol:
 ***###***  
 ***###***  
 
+Programa 2:  
 ```python
 def main():
     imprimir_cuadrado(3)
