@@ -363,3 +363,28 @@ Hermione, Gryffindor, Otter
 Harry, Gryffindor, Stag  
 Ron, Gryffindor, Jack Russell terrier  
 Draco, Slytherin, None  
+
+Programa de bloques de ladrillo de Mario Bro.  
+```python
+def main():
+    imprimir_cuadrado(3)
+
+def imprimir_cuadrado(tamano):
+
+    #Para cada fila en el cuadro:
+    for i in range(tamano):
+
+        #Para cada ladrillo en la fila:
+        for j in range(tamano):
+
+            #Imprimir ladrillo:
+            print("#", end = "")
+    
+        print()
+
+main()
+```
+Sol:  
+###  
+###  
+###  
