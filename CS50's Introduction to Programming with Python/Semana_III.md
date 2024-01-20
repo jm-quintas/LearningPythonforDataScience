@@ -385,9 +385,9 @@ def imprimir_cuadrado(tamano):
 main()
 ```
 Sol:  
-###  
-###  
-###  
+***###***  
+***###***  
+***###***  
 
 ```python
 def main():
@@ -405,6 +405,8 @@ def imprimir_fila(ancho):
 main()
 ```
 Sol:  
-###  
-###  
-###  
+***###***  
+***###***  
+***###***  
+
+ 
