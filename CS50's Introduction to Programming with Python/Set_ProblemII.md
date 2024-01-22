@@ -34,3 +34,8 @@ Sol:
 camelCase: ***nameFirst***  
 snake_case: ***name_first***  
 
+## Problema 2: Máquina de coca-cola.
+Implemente un programa que solicite al usuario que inserte una moneda, una a la vez, informándole cada vez el monto adeudado. Una vez que el usuario haya ingresado al menos 50 centavos, indique cuántos centavos de cambio se le deben al usuario. Supongamos que el usuario solo ingresará números enteros e ignorará cualquier número entero que no sea una denominación aceptada.
+
+```Python
+
