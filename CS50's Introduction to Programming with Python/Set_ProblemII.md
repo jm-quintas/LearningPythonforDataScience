@@ -1,5 +1,5 @@
 ## Problema 1: camelCase.
-En un archivo llamado camel.py, implemente un programa que solicite al usuario el nombre de una variable en camel case y genere el nombre correspondiente en snake case. Supongamos que la entrada del usuario será en camel case.  
+En un archivo llamado camel.py, implemente un programa que solicite al usuario el nombre de una variable en ***camel case*** y genere el nombre correspondiente en ***snake case***. Supongamos que la entrada del usuario será en camel case.  
 
 ```python
 # Entrada por porte del usuario:
