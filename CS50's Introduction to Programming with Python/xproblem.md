@@ -68,3 +68,19 @@ print(round(p, 4))
 ```
 Sol:  
 4.1151  
+
+Evalúa el polinomio x^4 + x^3 + (1/2)x^2 - x en x = 10. Asegúrate de que el resultado sea un número flotante. El resultado es 11040.0.  
+
+```python
+# Definimos una variable:
+x = 10
+
+# Polinomio:
+p = x**4 + x**3 + (1/2) * (x**2) - x
+
+# Salida y redondeo:
+print(float(p))
+```
+Sol:  
+11040.0  
+
