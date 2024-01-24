@@ -84,3 +84,35 @@ print(float(p))
 Sol:  
 11040.0  
 
+## Proyecto 4. Evaluar expresiones.
+¿Qué resultados se obtendrán al evaluar las siguientes expresiones Python?  
+a) int(exp(2 * log(3)))  
+b) round(4*sin(3 * pi / 2))  
+c) abs(log10(.01) * sqrt(25))  
+d) round(3.21123 * log10(1000), 3)  
+
+```python
+from math import exp, sin, log, log10, sqrt
+
+# Parte a:
+expresion1 = int(exp(2 * log(3)))
+print(expresion1)
+
+# Parte b:
+pi = 3.1415
+expresion2 = round(4 * sin((3 * pi) / 2))
+print(expresion2)
+
+# Parte 3:
+expresion3 = abs(log10(.01) * sqrt(25))
+print(expresion3)
+
+# Parte 4:
+expresion4 = round(3.21123 * log10(1000), 3)
+print(expresion4)
+```
+Sol:  
+9  
+-4  
+10.0  
+9.634  
