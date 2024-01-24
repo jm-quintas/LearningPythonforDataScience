@@ -1,4 +1,4 @@
-## Proyecto 1.
+## Proyecto 1. Mensaje.
 Crear un progrma que pregunte al usuario información sobre su nombre, ciudad donde nació, nombre de su mascota y su banda de música favorita. Luego combinar toda la información en un mensaje de salida.
 
 ```python
@@ -28,7 +28,7 @@ Introduce el nombre de tu mascota: ***Jacob***
 Banda de música: ***Maná***          
 Hola ***NicLau***, naciste en ***Maracaibo***, tu mascota se llama ***Jacob*** y tu banda de música favorita es ***Maná***. 
 
-## Proyecto 2.
+## Proyecto 2. Mensaje.
 Crear dos variables que contengan información por parte del usuario:
    * Primera variable llamada ***pais***.
    * Segunda variable llamada ***continente***.
