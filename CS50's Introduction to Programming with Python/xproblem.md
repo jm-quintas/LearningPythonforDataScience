@@ -18,12 +18,12 @@ mascota = input("Introduce el nombre de tu mascota: ")
 banda = input("Banda de música: ")
 
 # Combinar información y mostrar salida:
-print(f"Hola {nombre}, naciste en {ciudad}, tu mascota se llama {mascota} y tu banda de música favorita es {banda}")
+print(f"Hola {nombre}, naciste en {ciudad}, tu mascota se llama {mascota} y tu banda de música favorita es {banda}.")
 ```
 Sol:  
 Bienvenido a nuestro programa!    
-Introduce tu nombre: NicLau  
-Introduce la ciudad donde naciste: Maracaibo  
-Introduce el nombre de tu mascota: Jacob  
-Banda de música: Maná          
-Hola NicLau, naciste en Maracaibo, tu mascota se llama Jacob y tu banda de música favorita es Maná  
+Introduce tu nombre: ***NicLau***  
+Introduce la ciudad donde naciste: ***Maracaibo***  
+Introduce el nombre de tu mascota: ***Jacob***  
+Banda de música: ***Maná***          
+Hola ***NicLau***, naciste en ***Maracaibo***, tu mascota se llama ***Jacob*** y tu banda de música favorita es ***Maná***. 
