@@ -52,3 +52,19 @@ En que continente se encuentra tu pais: ***Latinoamerica***
 Hola eres de ***Venezuela***, que se encuentra en el continente de ***Latinoamerica***.  
 <class 'str'>  
 <class 'str'>  
+
+## Proyecto 3. Evaluar polinomio.
+Evalúa el polinomio x^4 + x^3 + 2x^2 - x en x = 1.1. Utiliza variables para evitar teclear varias veces el valor de x. El resultado es 4.1151.
+
+```python
+# Definimos una variable:
+x = 1.1
+
+# Polinomio:
+p = x**4 + x**3 + 2 * (x**2) - x
+
+# Salida y redondeo:
+print(round(p, 4))
+```
+Sol:  
+4.1151  
