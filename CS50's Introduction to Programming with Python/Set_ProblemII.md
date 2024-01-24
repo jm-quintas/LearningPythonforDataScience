@@ -71,3 +71,31 @@ Amount Due:  15
 Insert coin: 25  
 Change_Owed: 10  
 
+## Problema 3: Solo arreglando mi twttr.
+Implemente un programa que solicite al usuario un **str** texto y luego genere ese mismo texto pero con todas las vocales (A, E, I, O y U) omitidas, ya sea que se ingresen en mayúsculas o minúsculas.
+
+```python
+# Entrada del usuario:
+entrada = input("Input: ")
+
+# Imprimir la salida:
+print("Output: ", end ="")
+
+# Bucle a través de las letras:
+for letras in entrada:
+    
+    # Definimos una lista con las vocales:
+    vocales = ["a", "e", "i", "o", "u"]
+
+    # Verificar 
+    if not letras.lower() in vocales:
+        
+        # Imprimir las letras
+        print(letras, end = "")
+
+# Salida en una nueva linea:
+print()
+```
+Sol:  
+Input: Twitter  
+Output: Twttr  
