@@ -209,3 +209,25 @@ Introduce un valor para el lado b: ***2***
 Introduce un valor para el ángulo: ***30***  
 El ángulo es: ***0.5235833333333334***  
 El área del triángulo es: ***0.49998662654663256*** metros cuadrado   
+
+## Proyecto 9. Capital - Interés - Año.
+Haz un programa que pida al usuario una cantidad de euros, una tasa de interés y un número de años. Muestra por pantalla en cuanto se habra convertido el capital inicial transcurridos esos años si cada año se aplica la tasa de interés introducida. Recuerda que un capital de ***C*** euros a un interés del ***x*** por cien durante ***n*** años se convierten en ***C(1 + x/100)^n*** euros. Prueba tu programa sabiendo que una cantidad de 10,000 euros al 4.5% de interés anual se convierte en 24117.14 euros al cabo de 20 años.  
+
+```python
+# Entrada de valores:
+cantidad_euro = float(input("Introduce una cantidad de euros: "))
+tasa_interes = float(input("Introduce una cantidad de intéres: "))
+anos = int(input("Introduce una cantidad de años: "))
+
+# Cálculo:
+capital = cantidad_euro * (1 + tasa_interes / 100) ** anos
+
+# Salida:
+print(f"Cantidad de dinero: {capital} euros")
+```
+Sol:  
+Introduce una cantidad de euros: ***10000***  
+Introduce una cantidad de intéres: ***4.5***  
+Introduce una cantidad de años: ***20***  
+Cantidad de dinero: ***24117.140248374057*** euros  
+
