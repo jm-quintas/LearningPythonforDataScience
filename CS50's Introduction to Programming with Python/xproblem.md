@@ -178,3 +178,6 @@ Introduce el valor para la longitud: ***4***
 Introduce el valor para el ancho: ***6***  
 El área del rectángulo es: ***24.0*** metros cuadrados  
 El perímetro del rectángulo es: ***20.0*** metros  
+
+## Proyecto 8. Área de un triángulo.
+El área A de un triángulo se puede calcular a partir del valor de dos de sus lados, a y b, y del ángulo θ que estos forman entre sí con la fórmula A = (1/2)absenθ. Diseña un programa que pida al usuario el valor de los dos lados (en metros), el ángulo que estos forman (en grados), y muestre el valor del área. Ten en cuenta que la función ***sin*** de Python trabaja en radianes, así que el ángulo que leas en grados deberas pasarlo a radianes sabiendo que π radianes son 180 grados. Prueba que has hecho bien el programa introduciendo los siguientes datos: a = 1, b = 2, θ = 30; el resultado es 0.5.).  
