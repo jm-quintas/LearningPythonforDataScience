@@ -134,8 +134,8 @@ print("El área del cuadrado es: {} metros cuadrados".format(area_cuadrado))
 ```
 Sol:  
 Introduce un valor para el lado: ***3***   
-El perímetro del cuadrado es: ***12.0***  
-El área del cuadrado es: ***9.0***  
+El perímetro del cuadrado es: ***12.0*** metros  
+El área del cuadrado es: ***9.0*** metros cuadrado  
 
 ## Proyecto 6. Área de un triángulo.
 Diseña un programa que, a partir del valor de la base y de la altura de un triángulo (3 y 5 metros, respectivamente), muestre el valor de su área (en metros cuadrados). Recuerda que el área A de un triángulo se puede calcular a partir de la base b y la
@@ -155,5 +155,5 @@ print(f"El área del tiángulo es: {area} metros cuadrados")
 Sol:  
 Introduce el valor para la base: ***3***  
 Introduce el valor para la altura: ***5***  
-El área del tiángulo es: 7.5 metros cuadrados  
+El área del tiángulo es: ***7.5*** metros cuadrados  
 
