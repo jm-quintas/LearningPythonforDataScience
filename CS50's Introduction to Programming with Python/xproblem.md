@@ -116,3 +116,22 @@ Sol:
 -4  
 10.0  
 9.634  
+
+## Área y perímetro de un cuadrado.
+Diseña un programa que, a partir del valor del lado de un cuadrado (3 metros), muestre el valor de su perímetro (en metros) y el de su área (en metros cuadrados). (El perímetro debe darte 12 metros y el área 9 metros cuadrados).
+
+```python
+# Entrada de datos:
+lado = float(input("Introduce un valor para el lado: "))
+
+# Ecuaciones:
+perimetro_cuadrado = lado + lado + lado + lado
+
+area_cuadrado = lado * lado
+
+print(f"El perímetro del cuadrado es: {perimetro_cuadrado}")
+print("El área del cuadrado es: {}".format(area_cuadrado))
+```
+Sol:  
+Introduce un valor para el lado: 3  
+El perímetro del cuadrado es: 12.0  
