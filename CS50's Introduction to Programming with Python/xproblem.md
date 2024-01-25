@@ -180,4 +180,32 @@ El área del rectángulo es: ***24.0*** metros cuadrados
 El perímetro del rectángulo es: ***20.0*** metros  
 
 ## Proyecto 8. Área de un triángulo.
-El área A de un triángulo se puede calcular a partir del valor de dos de sus lados, a y b, y del ángulo θ que estos forman entre sí con la fórmula A = (1/2)absenθ. Diseña un programa que pida al usuario el valor de los dos lados (en metros), el ángulo que estos forman (en grados), y muestre el valor del área. Ten en cuenta que la función ***sin*** de Python trabaja en radianes, así que el ángulo que leas en grados deberas pasarlo a radianes sabiendo que π radianes son 180 grados. Prueba que has hecho bien el programa introduciendo los siguientes datos: a = 1, b = 2, θ = 30; el resultado es 0.5.).  
+El área ***A*** de un triángulo se puede calcular a partir del valor de dos de sus lados, ***a*** y ***b***, y del ángulo ***θ*** que estos forman entre sí con la fórmula ***A = (1/2)absenθ***. Diseña un programa que pida al usuario el valor de los dos lados (en metros), el ángulo que estos forman (en grados), y muestre el valor del área. Ten en cuenta que la función ***sin*** de Python trabaja en radianes, así que el ángulo que leas en grados deberas pasarlo a radianes sabiendo que ***π*** radianes son ***180 grados***. Prueba que has hecho bien el programa introduciendo los siguientes datos: ***a = 1***, ***b = 2***, ***θ = 30***; el resultado es ***0.5***).  
+
+```python
+# Importar desde la libreria.
+from math import sin 
+
+# Introducimos valores para las variables base y altura:
+lado_a = float(input("Introduce un valor para el lado a: "))
+lado_b = float(input("Introduce un valor para el lado b: "))
+
+# Introducimos valores para el ángulo:
+angulo = float(input("Introduce un valor para el ángulo: "))
+
+# Conversión de ángulo:
+nuevo_angulo = (angulo * 3.1415) / 180
+
+# Ecuación:
+area = (1/2) * lado_a * lado_b * sin(nuevo_angulo)
+
+# Salidas:
+print(nuevo_angulo)
+print(f"El área del triángulo es: {area}")
+```
+Sol:  
+Introduce un valor para el lado a: ***1***  
+Introduce un valor para el lado b: ***2***  
+Introduce un valor para el ángulo: ***30***  
+El ángulo es: ***0.5235833333333334***  
+El área del triángulo es: ***0.49998662654663256***  
