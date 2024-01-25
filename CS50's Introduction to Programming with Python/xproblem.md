@@ -133,5 +133,7 @@ print(f"El perímetro del cuadrado es: {perimetro_cuadrado}")
 print("El área del cuadrado es: {}".format(area_cuadrado))
 ```
 Sol:  
-Introduce un valor para el lado: 3  
-El perímetro del cuadrado es: 12.0  
+Introduce un valor para el lado: ***3***   
+El perímetro del cuadrado es: ***12.0***  
+El área del cuadrado es: ***9.0***  
+
