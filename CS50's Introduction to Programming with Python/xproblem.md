@@ -201,11 +201,11 @@ area = (1/2) * lado_a * lado_b * sin(nuevo_angulo)
 
 # Salidas:
 print(nuevo_angulo)
-print(f"El área del triángulo es: {area}")
+print(f"El área del triángulo es: {area} metros cuadrado")
 ```
 Sol:  
 Introduce un valor para el lado a: ***1***  
 Introduce un valor para el lado b: ***2***  
 Introduce un valor para el ángulo: ***30***  
 El ángulo es: ***0.5235833333333334***  
-El área del triángulo es: ***0.49998662654663256***  
+El área del triángulo es: ***0.49998662654663256*** metros cuadrado   
