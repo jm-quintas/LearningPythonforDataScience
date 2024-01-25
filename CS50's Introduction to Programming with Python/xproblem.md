@@ -157,3 +157,24 @@ Introduce el valor para la base: ***3***
 Introduce el valor para la altura: ***5***  
 El área del tiángulo es: ***7.5*** metros cuadrados  
 
+## Proyecto 7. Área y perímetro de un rectángulo.
+Diseña un programa que, a partir del valor de los dos lados de un rectángulo (4 y 6 metros, respectivamente), muestre el valor de su perímetro (en metros) y el de su área (en metros cuadrados). El perímetro debe darte 20 metros y el área 24 metros cuadrados.  
+
+```python
+# Introducimos valores para las variables base y altura:
+longitud = float(input("Introduce el valor para la longitud: "))
+ancho = float(input("Introduce el valor para el ancho: "))
+
+# Ecuación:
+area = longitud * ancho
+perimetro = 2 * longitud + 2 * ancho
+
+# Salida:
+print(f"El área del rectángulo es: {area} metros cuadrados")
+print(f"El perímetro del rectángulo es: {perimetro} metros")
+```
+Sol:  
+Introduce el valor para la longitud: ***4***   
+Introduce el valor para el ancho: ***6***  
+El área del rectángulo es: ***24.0*** metros cuadrados  
+El perímetro del rectángulo es: ***20.0*** metros  
