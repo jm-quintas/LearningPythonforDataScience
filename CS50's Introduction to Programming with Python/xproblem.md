@@ -231,3 +231,28 @@ Introduce una cantidad de intéres: ***4.5***
 Introduce una cantidad de años: ***20***  
 Cantidad de dinero: ***24117.140248374057*** euros  
 
+## Proyecto 10. Área y perímetro de una círcunferencia.
+Diseña un programa que solicite el radio de una circunferencia y muestre su área y perímetro con sólo 2 decimales.
+
+```python
+# Entrada de valores:
+radio = float(input("Introduce un valor para el radio: "))
+
+# Definimos una constante:
+pi = 3.1415
+
+# Cálculo:
+area_circunferencia = pi * (radio ** 2)
+area_redondeada = round(area_circunferencia, 2)
+
+perimetro_circunferencia = 2 * pi * radio
+perimetro_redondeado = round(perimetro_circunferencia, 2)
+
+# Salida:
+print(f"El área de la circunferencia es: {area_redondeada} metros cuadrados")
+print(f"El perímetro de la circunferencia es: {perimetro_redondeado} metros")
+```
+Sol:  
+Introduce un valor para el radio: ***3***  
+El área de la circunferencia es: ***28.27*** metros cuadrados  
+El perímetro de la circunferencia es: ***18.85*** metros  
