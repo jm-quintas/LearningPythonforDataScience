@@ -2,7 +2,7 @@
 Las excepciones son eventos inesperados que interrumpen el flujo normal del programa.
 
 ## Error de Sintaxis.
-Los errores de sintaxis en Python se producen cuando el código no está escrito correctamente, lo que impide que el intérprete de Python lo ejecute. Algunos ejemplos comunes de errores de sintaxis son:
+Los errores de sintaxis (Syntax error) en Python se producen cuando el código no está escrito correctamente, lo que impide que el intérprete de Python lo ejecute. Algunos ejemplos comunes de errores de sintaxis son:
 * ***Falta de paréntesis:***
 ```python
 print("Hola mundo")  # Correcto
@@ -42,7 +42,7 @@ If True:
 **Recuerda:** Los errores de sintaxis son errores comunes, especialmente para principiantes. Con práctica y atención a los detalles, podrás escribir código Python con mayor precisión y evitar este tipo de errores.
 
 ## Errores de Valores.
-Los errores de valores en Python se producen cuando el intérprete de Python encuentra un valor inesperado durante la ejecución del código. Algunos ejemplos comunes de errores de valores son:
+Los errores de valores (Value error) en Python se producen cuando el intérprete de Python encuentra un valor inesperado durante la ejecución del código. Algunos ejemplos comunes de errores de valores son:
 * ***Errores de tipo:***
 ```python
 numero = "10"
