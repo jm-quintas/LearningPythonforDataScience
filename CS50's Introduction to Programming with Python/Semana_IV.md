@@ -33,3 +33,10 @@ If True:
 * ***Comprueba la sintaxis básica:*** Verifica que los paréntesis, las comillas y los puntos y comas estén correctamente escritos.
 * ***Utiliza un editor de código con resaltado de sintaxis:*** Esto te ayudará a identificar errores de sintaxis más fácilmente.
 * ***Consulta la documentación de Python:*** La documentación oficial de Python [](https://docs.python.org/3/) ofrece información detallada sobre la sintaxis del lenguaje.
+
+### Consejos para evitar errores de sintaxis:
+* ***Escribe el código con cuidado:*** Presta atención a los detalles y asegúrate de que cada línea de código esté escrita correctamente.
+* ***Prueba el código a menudo:*** Ejecuta el código con frecuencia para identificar y corregir errores de sintaxis.
+* ***Utiliza herramientas de depuración:*** Los IDEs y depuradores pueden ayudarte a identificar y corregir errores de sintaxis más fácilmente.
+
+**Recuerda:** Los errores de sintaxis son errores comunes, especialmente para principiantes. Con práctica y atención a los detalles, podrás escribir código Python con mayor precisión y evitar este tipo de errores.
