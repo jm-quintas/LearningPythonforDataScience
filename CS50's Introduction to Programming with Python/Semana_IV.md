@@ -78,3 +78,13 @@ division = 10 / 0  # Error: Se intenta dividir un número por cero
 * ***Documenta tu código:*** Escribir comentarios en tu código te ayudará a comprender mejor el significado de las variables y las operaciones.
 * ***Prueba el código a menudo:*** Ejecuta el código con frecuencia para identificar y corregir errores de valores.
 * ***Utiliza herramientas de depuración:*** Los IDEs y depuradores pueden ayudarte a identificar y corregir errores de valores más fácilmente.
+
+### Funciones ***try*** y ***except***.
+La función try en Python, junto con la cláusula except, se utiliza para manejar excepciones que puedan ocurrir durante la ejecución del código.
+* ***try:*** Esta cláusula indica el inicio del bloque de código que se intenta ejecutar.
+* ***except Excepción1:*** Esta cláusula define un bloque de código que se ejecutará si ocurre la Excepción1 dentro del bloque try. Puedes tener múltiples cláusulas except para manejar diferentes tipos de excepciones.
+
+### Beneficios de usar try/except.
+* ***Mejora la robustez:*** Tu código se vuelve más resistente a errores inesperados y puede continuar su ejecución de manera controlada.
+* ***Mejora la legibilidad:*** Al manejar las excepciones de forma explícita, el código se vuelve más claro y fácil de entender.
+* ***Evita que el programa se bloquee:*** Si no se manejan las excepciones, el programa puede detenerse abruptamente, lo que puede ser inconveniente para el usuario.
