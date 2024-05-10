@@ -278,3 +278,23 @@ plt.show()
 ```
 Sol:  
 ![](https://github.com/jm-quintas/LearningPythonforDataScience/blob/main/CS50's%20Introduction%20to%20Programming%20with%20Python/Gr%C3%A1fica%20lineal.png)
+
+## Proyecto 12. Función cuadrática y su gráfica.
+Gráficar la siguiente función lineal: y = x^2.
+
+```python
+#Librerias:
+import numpy as np
+import matplotlib.pyplot as plt
+
+# Función cuadrática:
+x = np.arange(-5, 6)
+y = x**2
+
+# Gráfica:
+plt.plot(x, y, 'g-o')
+plt.xlabel('Eje x')
+plt.ylabel('Eje y')
+plt.title('Gráfica de una función cuadrática')
+plt.show()
+```
