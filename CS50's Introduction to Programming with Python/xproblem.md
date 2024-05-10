@@ -328,4 +328,6 @@ plt.title('Gráfica velocidad vs tiempo')
 plt.show()
 ```
 Sol:  
+[ 8.    8.15  8.3   8.45  8.6   8.75  8.9   9.05  9.2   9.35  9.5   9.65   9.8   9.95 10.1  10.25 10.4  10.55 10.7  10.85 11.   11.15 11.3  11.45  11.6  11.75 11.9  12.05 12.2  12.35] m/s  
+
 ![](https://github.com/jm-quintas/LearningPythonforDataScience/blob/main/CS50's%20Introduction%20to%20Programming%20with%20Python/Gr%C3%A1fica%20velocidad.png)
