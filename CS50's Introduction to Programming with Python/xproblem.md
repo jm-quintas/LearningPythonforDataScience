@@ -322,6 +322,9 @@ print(f"La velocidad final de la motocicleta es: {vf} m/s")
 
 # Gráfica:
 plt.plot(t, vf, 'r-o')
+plt.xlabel('tiempo(s)')
+plt.ylabel('Velocidad(m/s)')
+plt.title('Gráfica velocidad vs tiempo')
 plt.show()
 ```
 Sol:  
