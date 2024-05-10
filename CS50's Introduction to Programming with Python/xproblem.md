@@ -300,3 +300,29 @@ plt.show()
 ```
 Sol:  
 ![](https://github.com/jm-quintas/LearningPythonforDataScience/blob/main/CS50's%20Introduction%20to%20Programming%20with%20Python/Gr%C3%A1fica%20cuadr%C3%A1tica.png)
+
+## Proyecto 12. Cálculo de velocidad y su gráfica.
+Una motocicleta inicia un recorrido con una velocidad de 8 m/s y una aceleración constante de 0.15 m/s^2, si su desplazamiento dura 29 segundos. Determine su velocidad final.
+
+```python
+# Librerias:
+import numpy as np
+import matplotlib.pyplot as plt
+
+# Información:
+t = np.arange(0, 30)
+vi = 8
+acel = 0.15
+
+# Ecuación:
+vf = vi + acel*t
+
+# Resultado
+print(f"La velocidad final de la motocicleta es: {vf} m/s")
+
+# Gráfica:
+plt.plot(t, vf, 'r-o')
+plt.show()
+```
+Sol:
+![]()
