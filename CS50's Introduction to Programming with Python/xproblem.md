@@ -280,7 +280,7 @@ Sol:
 ![](https://github.com/jm-quintas/LearningPythonforDataScience/blob/main/CS50's%20Introduction%20to%20Programming%20with%20Python/Gr%C3%A1fica%20lineal.png)
 
 ## Proyecto 12. Función cuadrática y su gráfica.
-Gráficar la siguiente función lineal: y = x^2.
+Gráficar la siguiente función cuadrática: y = x^2.
 
 ```python
 #Librerias:
