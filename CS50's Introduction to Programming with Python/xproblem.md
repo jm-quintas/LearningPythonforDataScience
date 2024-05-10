@@ -256,3 +256,23 @@ Sol:
 Introduce un valor para el radio: ***3***  
 El área de la circunferencia es: ***28.27*** metros cuadrados  
 El perímetro de la circunferencia es: ***18.85*** metros  
+
+## Proyecto 11. Función lineal y su gráfica.
+Gráficar la siguiente función lineal: y = 2x + 1, equivale a la función y = mx + b.
+
+```python
+# Librerias para graficar:
+import numpy as np
+import matplotlib.pyplot as plt
+
+# Función lineal:
+x = np.arange(-3,4)
+y = 2*x + 1
+
+# Gráfica:
+plt.plot(x,y)
+plt.xlabel("Eje x")
+plt.ylabel("Eje y")
+plt.title("Gráfica de función lineal")
+plt.show()
+```
