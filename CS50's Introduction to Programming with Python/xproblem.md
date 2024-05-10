@@ -325,4 +325,4 @@ plt.plot(t, vf, 'r-o')
 plt.show()
 ```
 Sol:
-![]()
+![](https://github.com/jm-quintas/LearningPythonforDataScience/blob/main/CS50's%20Introduction%20to%20Programming%20with%20Python/Gr%C3%A1fica%20velocidad.png)
